@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/play/small/style-2/black" transform="translate(-10.000000, -8.000000)">
+            <g id="play">
+                <rect id="frame" x="0" y="0" width="34" height="34"></rect>
+                <path d="M23.7287487,18.557532 L14.5619342,23.9497758 L14.5619342,23.9497758 C13.7526779,24.4258089 12.710745,24.1556781 12.2347118,23.3464218 C12.0810352,23.0851715 12,22.7875853 12,22.4844876 L12,11.7 L12,11.7 C12,10.7611159 12.7611159,10 13.7,10 C14.0030977,10 14.3006839,10.0810352 14.5619342,10.2347118 L23.7287487,15.6269556 L23.7287487,15.6269556 C24.538005,16.1029888 24.8081358,17.1449217 24.3321026,17.954178 C24.185549,18.2033193 23.9778899,18.4109783 23.7287487,18.557532 Z" id="shapes" stroke="#1F111C" stroke-width="2.6"></path>
+            </g>
+        </g>
+    </g>
+</svg>

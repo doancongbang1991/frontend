@@ -1,0 +1,595 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Preclinic - Bootstrap Admin Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets\img\favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets\css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\dataTables.bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="header">
+            <div class="header-left">
+                <a href="index.html" class="logo">
+                    <img src="assets\img\logo.png" width="42" height="42" alt="Preclinic">
+                </a>
+            </div>
+            <div class="page-title-box pull-left">
+                <h3><span class="welcome-text">Welcome back,</span> Super Admin</h3>
+            </div>
+            <a id="mobile_btn" class="mobile_btn pull-left" href="#sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul class="nav navbar-nav navbar-right user-menu pull-right">
+                <li class="dropdown hidden-xs">
+                    <a href="#" class="hasnotifications dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <span class="badge pull-right">3</span></a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
+                            <span>Notifications</span>
+                        </div>
+                        <div class="drop-scroll">
+                            <ul class="media-list scroll-content">
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">
+												<img alt="John Doe" src="assets\img\user.jpeg" class="img-responsive img-circle">
+											</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Charles Ortega</span> booked <span class="noti-title">new appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">V</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Joshua Guzman</span> booked <span class="noti-title">new appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">L</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Cristina Groves</span> completed appointment of <span class="noti-title">Denise Stevens</span> </p>
+                                            <p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">G</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Julia Sims</span> cancelled <span class="noti-title">appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">V</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Ronald Jacobs</span> rejected <span class="noti-title"><span class="noti-title">Marie Howard's</span> appointment</span>
+                                            </p>
+                                            <p class="noti-time"><span class="notification-time">2 days ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topnav-dropdown-footer">
+                            <a href="notifications.html">View all Notifications</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle user-link" data-toggle="dropdown" title="Admin"><img class="img-circle" src="assets\img\user.jpeg" width="40" alt=""></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="profile.html">My Profile</a></li>
+                        <li><a href="login.html">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="dropdown mobile-user-menu pull-right">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                <ul class="dropdown-menu pull-right">
+                    <li><a href="profile.html">My Profile</a></li>
+                    <li><a href="login.html">Logout</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title"><i class="fa fa-dashboard"></i> People</li>
+                        <li>
+                            <a href="index.html">Dashboard</a>
+                        </li>
+                        <li class="active">
+                            <a href="doctors.html">Doctors</a>
+                        </li>
+                        <li>
+                            <a href="patients.html">Patients</a>
+                        </li>
+                        <li>
+                            <a href="staff.html">Staff</a>
+                        </li>
+                        <li>
+                            <a href="staff-rota.html">Staff Rota</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-medkit"></i> Treatment</li>
+                        <li>
+                            <a href="treatment-episode.html">Treatment Episode</a>
+                        </li>
+                        <li>
+                            <a href="treatment-form.html">Treatment Form</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-clock-o"></i> Appointments</li>
+                        <li>
+                            <a href="appointment.html">Appointment</a>
+                        </li>
+                        <li>
+                            <a href="list-diary.html">List Diary</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-usd"></i> Accounts</li>
+                        <li>
+                            <a href="charge-patient.html">Charge for Patient</a>
+                        </li>
+                        <li>
+                            <a href="invoices.html">Invoices</a>
+                        </li>
+                        <li>
+                            <a href="payments.html">Payments</a>
+                        </li>
+                        <li>
+                            <a href="expenses.html">Expenses</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-file-text-o"></i> Reports</li>
+                        <li>
+                            <a href="expense-reports.html">Expense Reports</a>
+                        </li>
+                        <li>
+                            <a href="invoice-reports.html">Invoice Reports</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-file-text" aria-hidden="true"></i> Extra Pages</li>
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="forgot-password.html">Forgot Password</a>
+                        </li>
+                        <li>
+                            <a href="health-check.html">Health Check</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="content container-fluid">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-3">
+                        <h4 class="page-title">Doctors</h4>
+                    </div>
+                    <div class="col-sm-8 col-xs-9 text-right">
+                        <a href="add-doctor.html" class="btn add-btn btn-custom pull-right m-b-30"><i class="fa fa-plus"></i> Add Doctor</a>
+                        <div class="view-icons">
+                            <a class="grid-view btn btn-link" href="doctors.html"><i class="fa fa-th"></i></a>
+                            <a class="list-view btn btn-link active" href="doctors-list.html"><i class="fa fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card-box">
+                            <div class="table-responsive">
+                                <table class="table table-striped custom-table datatable">
+                                    <thead>
+                                        <tr>
+                                            <th>Doctor Name</th>
+                                            <th>Department</th>
+                                            <th>Email</th>
+                                            <th>Phone Number</th>
+                                            <th>Mobile Number</th>
+                                            <th>Status</th>
+                                            <th class="text-right">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\doctor-03.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Cristina Groves</a></h2>
+                                            </td>
+                                            <td>Gynecologist</td>
+                                            <td>cristinagroves@example.com</td>
+                                            <td>(336) 726 4592</td>
+                                            <td>(336) 926 7182</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\doctor-07.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Marie Wells</a></h2>
+                                            </td>
+                                            <td>Psychiatrist</td>
+                                            <td>mariewells@example.com</td>
+                                            <td>(336) 726 4592</td>
+                                            <td>(336) 926 7182</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\doctor-04.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Henry Daniels</a></h2>
+                                            </td>
+                                            <td>Cardiologist</td>
+                                            <td>henrydaniels@example.com</td>
+                                            <td>(336) 726 4592</td>
+                                            <td>(336) 926 7182</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\user.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Mark Hunter</a></h2>
+                                            </td>
+                                            <td>Urologist</td>
+                                            <td>markhunter@example.com</td>
+                                            <td>(222) 347 3490</td>
+                                            <td>(222) 347 3490</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\user.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Michael Sullivan</a></h2>
+                                            </td>
+                                            <td>Ophthalmologist</td>
+                                            <td>michaelsullivan@example.com</td>
+                                            <td>(842) 314 3713</td>
+                                            <td>(842) 314 3713</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\doctor-02.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Linda Barrett</a></h2>
+                                            </td>
+                                            <td>Dentist</td>
+                                            <td>lindabarrett@example.com</td>
+                                            <td>(336) 726 4592</td>
+                                            <td>(336) 926 7182</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\doctor-09.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Ronald Jacobs</a></h2>
+                                            </td>
+                                            <td>Oncologist</td>
+                                            <td>ronaldjacobs@example.com</td>
+                                            <td>(217) 134 5721</td>
+                                            <td>(217) 134 5721</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\doctor-09.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Albert Sandoval</a></h2>
+                                            </td>
+                                            <td>Neurologist</td>
+                                            <td>albertsandoval@example.com</td>
+                                            <td>(122) 408 2257</td>
+                                            <td>(122) 408 2257</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\doctor-05.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Diana Bailey</a></h2>
+                                            </td>
+                                            <td>General Surgery</td>
+                                            <td>dianabailey@example.com</td>
+                                            <td>(380) 475 2866</td>
+                                            <td>(380) 475 2866</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\user.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Shirley Willis</a></h2>
+                                            </td>
+                                            <td>Radiologist</td>
+                                            <td>shirleywillis@example.com</td>
+                                            <td>(165) 826 1053</td>
+                                            <td>(165) 826 1053</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\doctor-08.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Pamela Curtis</a></h2>
+                                            </td>
+                                            <td>Pediatrics</td>
+                                            <td>pamelacurtis@example.com</td>
+                                            <td>(165) 826 1053</td>
+                                            <td>(165) 826 1053</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="profile.html" class="avatar"><img src="assets\img\doctor-06.jpeg" alt=""></a>
+                                                <h2><a href="profile.html">Justin Parker</a></h2>
+                                            </td>
+                                            <td>Physical Therapist</td>
+                                            <td>justinparker@example.com</td>
+                                            <td>(165) 826 1053</td>
+                                            <td>(165) 826 1053</td>
+                                            <td>
+                                                <div class="dropdown action-label">
+                                                    <a class="btn btn-white btn-sm rounded dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-dot-circle-o text-success"></i> Active <i class="caret"></i></a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-success"></i> Active</a></li>
+                                                        <li><a href="#"><i class="fa fa-dot-circle-o text-danger"></i> Inactive</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                            <td class="text-right">
+                                                <div class="dropdown">
+                                                    <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                                    <ul class="dropdown-menu pull-right">
+                                                        <li><a href="edit-doctor.html"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                        <li><a href="#" data-toggle="modal" data-target="#delete_doctor"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                                    </ul>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="delete_doctor" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-danger">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Delete Doctor</h4>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <p>Are you sure want to delete Doctor?</p>
+                        </div>
+                        <div class="modal-footer"> <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-overlay" data-reff="#sidebar"></div>
+    <script type="text/javascript" src="assets\js\modernizr.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets\js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="assets\js\dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="assets\js\app.js"></script>
+</body>
+
+</html>

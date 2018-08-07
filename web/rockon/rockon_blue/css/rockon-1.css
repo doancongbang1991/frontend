@@ -1,0 +1,1867 @@
+/*------------------------------------------------------------------
+
+[Master Stylesheet]
+Project:	Rockon
+Version:	1.0
+Last change:	27/11/16 
+Author: Maxartkiller
+Copyright @ maxartkiller.in
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+
+[Table of contents]
+
+1. General HTML tag css
+2. Page structure and layour css
+3. Sidebar 
+4. Top nav css 
+5. Breadcrumb nav
+6. Switch
+7. Shadow
+8. card depth 
+9. sparklines charts 
+10. jqvector map 
+11.  Morris CSS
+12. pagination
+13. Data tables
+14. tables
+15. masonary gallery -
+16. Full calendar custom
+17. Home page
+18. mail app navigation
+19. Google map 
+20. Profile page 
+21. Timeline page 
+22. Pricing table 
+23. icons
+24. Contact
+25. Error
+26. Comming soon
+28. Lock screen
+29. Count Down 
+30. colors 
+31. grid
+32. Helpers
+33. Shadow
+34. Icons
+35. Responsive
+
+-------------------------------------------------------------------*/
+
+
+/*==============================================
+General HTML tag css
+=============================================*/
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	background: #f9f9f9;
+	font-weight: 300
+}
+p {
+	color: #222222;
+	font-size: 14px;
+	line-height: 20px;
+}
+p.flow-text {
+	line-height: 1.4;
+}
+p.large {
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	vertical-align: middle
+}
+p.large i {
+	vertical-align: middle
+}
+.btn-floating i {
+	font-size: 1.1rem;
+}
+b {
+	font-weight: 400
+}
+.btn, .btn-flat {
+	padding: 0 15px;
+}
+.btn-floating {
+	padding: 0;
+}
+.btn-floating.btn-large i {
+	font-size: 1.6rem
+}
+.no-margin {
+	margin: 0
+}
+.responsive-img {
+	display: block
+}
+.chips .input {
+	margin-bottom: 0
+}
+.card.horizontal .card-image img {
+	min-height: 100%
+}
+/*==============================================
+Page structure and layour css
+=============================================*/
+.page_wrapper {
+	margin-left: 300px;
+	transition: ease all 0.5s
+}
+.menusmall .page_wrapper {
+	margin-left: 100px
+}
+.menuclose .page_wrapper, .menuclose.menusmall .page_wrapper {
+	margin-left: 0
+}
+.page_content {
+	padding: 20px;
+}
+/*==============================================
+Sidebar css 
+=============================================*/
+.side-nav {
+	transition: ease all 0.5s
+}
+
+.side-nav a {
+	font-weight: 400;
+	padding: 0 16px;
+}
+.side_fill .side-nav a,  .side_fill .side-nav a i.material-icons{ color: #ffffff}
+.side-nav li.active  a.active{background: #0D47A1 }
+.side-nav  li.active > a , .side-nav  li.active > a i{ color: #fff}
+.side-nav .userView .circle {
+	margin: 0 auto;
+}
+body.side_fill .side-nav > li.active{
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+.side-nav .userView .background {
+	max-width: 100%;
+	min-height: 100%;
+}
+.side_fill .side-nav .userView .background {
+    opacity:0.6        
+}
+.side-nav .userView {
+	padding: 32px 32px 15px 32px;
+	margin-bottom: 30px;
+	overflow: hidden
+}
+.menuclose .side-nav {
+	left: -300px;
+}
+.menuclose.menusmall .side-nav {
+	left: -100px;
+}
+.menusmall .side-nav {
+	width: 100px;
+	position: fixed;
+	overflow: visible
+}
+.menusmall .side-nav .userView {
+	padding: 10px 0;
+	height: 104px;
+}
+.menusmall .side-nav .userView a {
+	display: none
+}
+.menusmall .side-nav .userView a.picture {
+	display: block
+}
+.side-nav li a i.arrow {
+	float: right;
+	margin-right: 0;
+    position: absolute; right: 5px;
+    width: 25px;
+    top: 0px;
+}
+.side-nav li {
+	white-space: nowrap;
+	position: relative;
+}
+.menusmall .side-nav li a {
+	line-height: 30px;
+	height: auto;
+	padding: 5px 10px;
+	text-align: center;
+	position: relative;
+}
+.menusmall .side-nav li a i {
+	width: 100%;
+	text-align: center;
+	margin-right: 10px;
+	line-height: 40px;
+}
+.menusmall .side-nav li a i.arrow {
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	width: 10px;
+}
+.menusmall .side-nav .collapsible-header {
+	padding: 5px 10px;
+	line-height: 40px;
+}
+.menusmall .side-nav .collapsible-body, .menusmall .side-nav.fixed .collapsible-body {
+	position: fixed;
+	top: 0;
+	left: 100px;
+	height: 100%;
+	width: 250px;
+	text-align: left;
+	box-shadow: inset 2px 0px 5px 0 rgba(0,0,0,0.15), 2px 0px 5px 0 rgba(0,0,0,0.15)
+}
+.menusmall .side-nav .collapsible-body li a {
+	line-height: 50px;
+	padding: 0 15px
+}
+.side-nav a.menuclosebtn {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	display: none
+}
+.side-nav .fixed-action-btn {
+	position: absolute;
+	bottom: -24px;
+	right: 10px;
+}
+.menusmall .side-nav .fixed-action-btn {
+	display: none
+}
+.side-nav .fixed-action-btn .btn-floating {
+	padding: 0;
+	margin: 0;
+}
+.side-nav .fixed-action-btn ul li a {
+	padding: 0;
+	height: 36px;
+	width: 36px;
+	line-height: 36px;
+}
+.side-nav .fixed-action-btn > .btn-floating i {
+	margin-right: 0;
+	line-height: 56px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1.5rem
+}
+.side-nav .fixed-action-btn >ul li .btn-floating i {
+	margin-right: 0;
+	line-height: 36px;
+	text-align: center;
+	margin: 0 auto;
+	font-size: 1rem;
+	width: 36px;
+	color: #fff;
+}
+/*==============================================
+Top nav css 
+=============================================*/
+nav {
+	position: relative;
+	z-index: 9;
+	clear: both
+}
+nav ul li {
+	position: relative
+}
+nav .brand-logo {
+	position: relative;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.search_nav {
+	width: 250px;
+	vertical-align: top;
+	margin-left: 15px;
+	display: inline-block
+}
+nav .dropdown-content {
+	top: 64px !important;
+	right: 0;
+	min-width: 180px;
+	left: auto !important;
+	border: 0
+}
+nav .dropdown-content.messages {
+	width: 250px !important;
+}
+.collection {
+	border: 0
+}
+.collection .collection-item.avatar .title {
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 500;
+}
+.collection .collection-item.avatar p {
+	margin: 0;
+	color: #666;
+}
+nav .dropdown-content.listitems {
+	width: 350px !important;
+}
+nav .dropdown-content.listitems .collection-item {
+	padding: 10px 0
+}
+nav .dropdown-content.listitems .collection-item small {
+	color: #666666;
+	margin: 10px 0 0 0;
+	display: block
+}
+nav .dropdown-content li>span {
+	padding: 0
+}
+.dropdown-content li>a>i {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	font-size: 20px;
+	color: #0d47a1;
+}
+.dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
+	background: #f3f3f3
+}
+.dropdown-content li a:hover, .dropdown-content li a.active, .dropdown-content li a.selected {
+	background: #f3f3f3
+}
+.collection .collection-item {
+	border: 0
+}
+.dropdown-content li.center-align {
+	text-align: center
+}
+.counts {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	z-index: 5;
+	line-height: 20px;
+	text-align: center;
+	font-size: 11px;
+	top: 10px;
+	right: 10px;
+	background: #ff0057;
+	display: block;
+	border-radius: 10px;
+	padding: 0;
+}
+/*==============================================
+Breadcrumb nav css 
+=============================================*/
+.breadcrumbnav {
+	padding: 0 15px;
+	z-index: 0;
+	height: 40px;
+	line-height: 38px;
+	top: -2px
+}
+.breadcrumbnav a {
+	font-size: 13px
+}
+.breadcrumbnav .breadcrumb:before {
+	font-size: 18px
+}
+.breadcrumbnav .btn {
+	height: 26px;
+	line-height: 26px;
+	padding: 0 15px
+}
+/*==============================================
+Switch css 
+=============================================*/
+.switch label input[type=checkbox]:checked+.lever {
+	background-color: #8bc34a;
+}
+.switch label input[type=checkbox]:checked+.lever:after {
+	background-color: #ffffff;
+	left: 24px;
+}
+/*==============================================
+Shadow depth 
+=============================================*/
+.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+}
+/*==============================================
+card depth 
+=============================================*/
+.blockcolored .card .card-content .card-title {
+	line-height: 34px;
+	margin-top: 10px;
+	font-weight: 500;
+	font-size: 34px;
+}
+.card .card-content p {
+	line-height: 20px;
+	margin: 10px 0 0 0
+}
+.card .card-content .row {
+	margin: 0
+}
+/*==============================================
+sparklines charts 
+=============================================*/
+.jqstooltip {
+	height: auto!important;
+	width: auto !important;
+	display: block;
+	padding: 6px;
+	color: #222222 !important;
+	background: rgb(255, 255, 255) !important;
+	font-size: 12px;
+	text-align: center;
+	line-height: 14px;
+	border-radius: 3px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.jqstooltip .jqsfield, .jqstooltip .jqsfield span {
+	color: #222222 !important;
+}
+/*==============================*/
+/*====== jqvector map CSS ======*/
+/*==============================*/
+.worldmap {
+	height: 350px;
+	padding-left: 10px
+}
+#morris-area-chart {
+	padding-left: 10px
+}
+.jvectormap-container {
+	background: transparent !important;
+	padding: 15px;
+}
+/*==============================*/
+/*====== Morris CSS ======*/
+/*==============================*/
+
+.morris-hover.morris-default-style {
+	padding: 6px;
+	color: #222222;
+	background: rgb(255, 255, 255);
+	border: solid 2px rgba(230,230,230,0);
+	font-family: sans-serif;
+	font-size: 12px;
+	text-align: center;
+	line-height: 14px;
+	border-radius: 3px;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+/*==============================================
+pagination css
+=============================================*/
+.pagination li {
+	height: 30px;
+	line-height: 30px;
+	margin: 0 3px;
+}
+/*==============================*/
+/*========= Data tables ========*/
+/*==============================*/
+
+table.dataTable {
+	width: 100% !important;
+	margin-bottom: 0;
+}
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+}
+table.dataTable thead .sorting_asc:after {
+	content: "\f0de";
+	float: right;
+	font-family: fontawesome;
+}
+table.dataTable thead .sorting_desc:after {
+	content: "\f0dd";
+	float: right;
+	font-family: fontawesome;
+}
+table.dataTable thead .sorting:after {
+	content: "\f0dc";
+	float: right;
+	font-family: fontawesome;
+	color: rgba(0, 0, 0, 0.3);
+}
+.dataTables_filter {
+	float: right;
+	width: auto;
+}
+.dataTables_filter input {
+	margin-left: 15px;
+	width: auto;
+	margin-bottom: 0;
+}
+.dataTables_length input, .dataTables_length select {
+	margin: 0 15px;
+	width: auto;
+	display: inline-block;
+}
+.dataTables_paginate .pagination {
+	float: right
+}
+.dataTables_paginate .pagination, .dataTables_info {
+	margin: 10px 0 !important;
+	line-height: 40px
+}
+.gridpic {
+	height: 30px;
+	width: 30px;
+	margin-right: 10px;
+	border-radius: 30px;
+	vertical-align: middle;
+}
+table.dataTable thead tr th, table.dataTable tbody tr td {
+	padding: 5px 15px;
+	line-height: 40px;
+}
+.col-sm-6 {
+	width: 50%;
+	float: left
+}
+.pagination li.active {
+	background-color: #0d47a1;
+}
+/*==============================*/
+/*========= tables ========*/
+/*==============================*/
+.table {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+	padding: 5px 15px;
+	line-height: 20px;
+	vertical-align: top;
+	border-width: 0;
+	border-top: 1px solid #e1eaef;
+	font-size: 13px;
+	background: #fff;
+	position: relative;
+	transition: 1s all ease;
+}
+.table-striped>tbody>tr:nth-child(even)>td {
+	background: #fafafb
+}
+.table tr {
+	position: relative
+}
+.table tr td:after, .table tr td:before, table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before {
+	content: " ";
+	opacity: 0;
+	display: block;
+	z-index: 9;
+	width: 100%;
+	float: left;
+	height: 0px;
+	border-radius: 0;
+	border: 0 none;
+	position: absolute;
+	transition: 1s all ease;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+}
+.table tr td:before, table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before {
+	top: 0px;
+	left: 0;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.08) 12%, rgba(0,0,0,0.65) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.08) 12%, rgba(0,0,0,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.08) 12%, rgba(0,0,0,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000', GradientType=0 ); /* IE6-9 */
+	transition: 0.5s all ease;
+}
+.table tr td:after {
+	bottom: 0px;
+	left: 0;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.08) 88%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.08) 88%, rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.08) 88%, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000', GradientType=0 ); /* IE6-9 */
+	transition: 0.5s all ease;
+}
+.table tr:hover td:before, table.dataTable.dtr-inline.collapsed > tbody > tr:hover > td:first-child:before {
+	opacity: 0.1;
+	height: 15px;
+	top: -15px;
+}
+.table tr:hover td:after {
+	opacity: 0.1;
+	height: 15px;
+	bottom: -15px;
+}
+.table tr th {
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #222222;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+	border-right: 0;
+	border-left: 0;
+}
+.table-bordered {
+	width: 100%;
+	border: 1px solid #e1eaef;
+}
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+	border: 1px solid #e1eaef;
+	border-right: 0;
+	border-left: 0;
+}
+.tablebordered {
+	width: 100%;
+	border: 1px solid #e1eaef;
+}
+table tr td img {
+	max-width: 30px;
+	vertical-align: middle;
+}
+/*--------------------------------------------*/
+/*------------------- masonary gallery -----------------*/
+/*--------------------------------------------*/
+.grid {
+	width: 100%;
+	float: left;
+	padding: 15px 0
+}
+.grid .grid-item {
+	width: 33.33333%;
+	padding: 0px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+.grid .grid-item:before {
+	content: "\f002";
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 30px;
+	height: 30px;
+	background: rgba(0,0,0,0.6);
+	color: rgba(255,255,255,0.8);
+	font-size: 18px;
+	text-align: center;
+	line-height: 30px;
+	vertical-align: middle;
+	font-family: FontAwesome;
+}
+.grid.two .grid-item {
+	width: 50%;
+}
+.grid.one .grid-item {
+	width: 100%;
+}
+.grid a {
+	width: 100%;
+	display: block;
+	float: left
+}
+.grid a img {
+	width: 100%;
+	display: block;
+	float: left
+}
+#swipebox-overlay {
+	background: rgba(0, 0, 0, 0.5)
+}
+.profilegallery .grid-item {
+	height: 180px;
+	overflow: hidden;
+}
+.profilegallery .grid-item a {
+	height: 100%;
+	display: block
+}
+.profilegallery .grid-item img {
+	height: 100%;
+	overflow: hidden;
+}
+/*==============================*/
+/*====== Full calendar custom CSS ======*/
+/*==============================*/
+.fc-toolbar {
+	margin-bottom: 0;
+	padding: 0px;
+	vertical-align: middle;
+	line-height: 60px;
+	height: 60px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	background: #0d47a1;
+	color: #fff;
+}
+.fc-event {
+	cursor: pointer;
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+	padding: 5px 10px;
+	font-size: 14px;
+	line-height: 20px;
+	margin-bottom: 15px;
+	box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+	-ms-box-shadow: 0px 3px 10px 0 rgba(0, 0, 0, 0.15);
+}
+.fc-toolbar h2 {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 60px;
+}
+.fc-toolbar button {
+	line-height: 60px;
+	vertical-align: middle;
+	padding: 0 17px;
+	border-radius: 0 !important;
+	border: 0;
+	height: 60px;
+	background: rgba(0,0,0,0.1);
+	margin: 0;
+	text-transform: uppercase;
+	color: #ffffff;
+	box-shadow: none;
+	font-weight: 300;
+	text-shadow: none;
+}
+.fc-view-container {
+	background: #ffffff
+}
+.fc th, .fc td {
+}
+.fc th {
+	border-color: rgba(0,0,0,0.1);
+	padding: 0 10px;
+	line-height: 50px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.fc-row .fc-content-skeleton table {
+	border-collapse: separate
+}
+.fc-unthemed .fc-row.fc-widget-header {
+	margin-top: -1px;
+}
+.fc-toolbar .fc-state-active, .fc-toolbar .ui-state-active {
+	z-index: 4;
+	background: rgba(0, 0, 0, 0.4);
+}
+/*==============================================
+Home page css
+=============================================*/
+.home_cards_icon {
+	margin-top: 0px;
+	font-size: 30px;
+}
+.homeslider {
+	border-radius: 3px;
+	overflow: hidden;
+	margin-top: 8px;
+	height: 360px !important
+}
+.homeslider2 {
+	border-radius: 3px;
+	overflow: hidden;
+	margin-top: 8px;
+	height: 360px !important
+}
+.homeslider2.slider .indicators {
+	right: 0;
+	bottom: 10px;
+	margin: 0;
+	z-index: 9;
+}
+.homeslider2.slider ul li img {
+	opacity: 0.6
+}
+.card-panel .row {
+	margin-bottom: 0
+}
+.todotitle {
+	border-bottom: 1px solid #eeeeee;
+	margin-bottom: 20px;
+	position: relative
+}
+.todoadd {
+	position: absolute;
+	bottom: -24px;
+	right: 20px;
+}
+.collection .collection-item.avatar input[type="checkbox"]+label {
+	position: absolute;
+	left: 20px;
+	top: 14px;
+}
+.collection .collection-item.avatar input[type="checkbox"]:checked+label+span {
+	text-decoration: line-through
+}
+.collection .collection-item.avatar .title .badge {
+	display: inline-block;
+	border-radius: 10px;
+	float: none;
+	font-size: 12px;
+	line-height: 20px;
+	height: 20px;
+	position: relative;
+	right: auto;
+	margin-left: 10px;
+}
+.row-wrap {
+	margin-left: -20px;
+	margin-right: -20px
+}
+footer.page-footer .footer-copyright {
+	margin-bottom: 0
+}
+.status {
+	line-height: 30px;
+	padding: 0 15px;
+	font-size: 15px;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 15px;
+	width: auto;
+	display: inline-block;
+	color: #ffffff
+}
+/*==============================================
+mail app navigation
+=============================================*/
+.searchmail .input-field {
+	margin-top: 0
+}
+.searchmail .input-field input[type=search]+label.active {
+	top: 0.8rem;
+	transform: translate(0%);
+-webkit- transform: translate(0%)
+}
+.searchmail .input-field input[type='search'] ~ .material-icons {
+	top: 0.4rem;
+}
+.margin-right {
+	margin-right: 15px;
+}
+.titledate {
+	font-size: 12px;
+	text-align: right;
+	line-height: 30px;
+	color: #999999
+}
+.titledate i {
+	font-size: 16px;
+	text-align: left;
+	vertical-align: middle;
+	margin-right: 10px;
+	color: #222222
+}
+.collection-item {
+	width: 100%;
+}
+.border-right {
+	border-right: 1px solid #eeeeee
+}
+.mail-nav-wrapper {
+	border-bottom: 1px solid #eeeeee;
+	display: block;
+	width: 100%;
+	clear: both;
+	margin-bottom: 10px;
+	z-index: 0;
+	position: relative
+}
+.mail-nav-wrapper ul {
+	margin: 0;
+	padding: 0;
+}
+.mail-nav-wrapper ul li {
+	float: left;
+}
+.mail-nav-wrapper ul li a {
+	float: left;
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 45px;
+}
+.mail-nav-wrapper ul li a i {
+	text-align: center;
+	vertical-align: middle;
+	line-height: 45px;
+}
+/*==============================================
+Google map navigation
+=============================================*/
+.relative {
+	position: relative
+}
+.mapbtnfloat {
+	position: absolute;
+	top: -27.5px;
+	right: 20px;
+}
+iframe {
+	display: block
+}
+/*==============================================
+Profile page 
+=============================================*/
+.background {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+}
+.userView.lg {
+	position: relative;
+	overflow: hidden;
+}
+.userView.lg .background {
+	width: 100%;
+	min-height: 100%;
+	z-index: 0
+}
+.userView.lg .card-header a {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+	z-index: 1
+}
+.card-header {
+	padding: 30px 15px;
+}
+.post_message {
+	position: relative;
+	z-index: 1
+}
+.post_message textarea.materialize-textarea {
+	margin-bottom: 0
+}
+.post_message .mail-nav-wrapper {
+	border: 0;
+	margin-bottom: 0
+}
+.post {
+	margin-top: 5px;
+}
+.profilegallery.small .grid-item {
+	height: 100px
+}
+.card .card-content.postlist {
+	padding-top: 0
+}
+.postimage {
+	max-height: 350px;
+}
+.card .card-action a.postlinks:not(.btn):not(.btn-large):not(.btn-floating), .card .card-action a.postlinks {
+	line-height: 30px;
+	vertical-align: middle;
+	text-transform: none;
+	font-size: 14px;
+}
+.postlinks i {
+	line-height: 30px;
+	vertical-align: middle;
+	margin-right: 15px;
+}
+.collection a.collection-item {
+	color: #039be5
+}
+/*==============================================
+Timeline page 
+=============================================*/
+
+.timeline {
+	position: relative;
+	padding: 20px 0 20px;
+	list-style: none;
+}
+.timeline:before {
+	content: " ";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	width: 2px;
+	margin-left: -1.5px;
+	background-color: rgba(96, 125, 139, 0.2);
+}
+.timeline > li {
+	position: relative;
+	margin-bottom: 20px;
+}
+.timeline > li:before, .timeline > li:after {
+	content: " ";
+	display: table;
+}
+.timeline > li:after {
+	clear: both;
+}
+.timeline > li:before, .timeline > li:after {
+	content: " ";
+	display: table;
+}
+.timeline > li:after {
+	clear: both;
+}
+.timeline > li > .timeline-panel {
+	float: left;
+	position: relative;
+	width: 46%;
+}
+.timeline > li > .timeline-panel:before {
+	content: " ";
+	display: inline-block;
+	position: absolute;
+	top: 26px;
+	right: -15px;
+	border-top: 15px solid transparent;
+	border-right: 0 solid #e1eaef;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #e1eaef;
+}
+.timeline > li > .timeline-panel:after {
+	content: " ";
+	display: inline-block;
+	position: absolute;
+	top: 27px;
+	right: -14px;
+	border-top: 14px solid transparent;
+	border-right: 0 solid #fff;
+	border-bottom: 14px solid transparent;
+	border-left: 14px solid #fff;
+}
+.timeline > li > .timeline-badge {
+	z-index: 100;
+	position: absolute;
+	top: 16px;
+	left: 50%;
+	margin-left: -27px;
+}
+.timeline > li > .timeline-badge i {
+	text-align: center
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+	float: right;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+	right: auto;
+	left: -15px;
+	border-right-width: 15px;
+	border-left-width: 0;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+	right: auto;
+	left: -14px;
+	border-right-width: 14px;
+	border-left-width: 0;
+}
+/*==============================================
+Pricing table page 
+=============================================*/
+.price small {
+	font-size: 18px;
+}
+.collection .collection-item i {
+	vertical-align: middle
+}
+/*==============================================
+icons page 
+=============================================*/
+.material-icons.round {
+	border-radius: 50%;
+	padding: 10px;
+	border: 2px solid #dddddd
+}
+/*==============================================
+Contact page 
+=============================================*/
+.call_us {
+	line-height: 60px;
+	width: auto;
+	display: block;
+	margin: 0 auto
+}
+.call_us i {
+	vertical-align: top;
+	margin-top: 10px;
+	margin-right: 20px;
+}
+.call_us span {
+	line-height: 30px;
+	display: inline-block
+}
+.call_us span small {
+	font-size: 18px;
+}
+/*==============================================
+Error page 
+=============================================*/
+html {
+	height: 100%
+}
+.errorbox {
+	margin-top: 8%
+}
+/*==============================================
+Comming soon page 
+=============================================*/
+#comingsoon{background: #000000}
+.comingsoon {
+	width: auto;
+	opacity:0.5;
+	min-height: 100%;
+	min-width: 100%;
+    z-index: -1;
+}
+.darkoverlay {
+	width: auto;
+	opacity:1;
+	min-height: 100%;
+	min-width: 100%;
+    z-index: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #000000;
+}
+.comingsoonwrapper {
+	overflow: hidden;
+	height: 100%
+}
+.comingsoonwrapper .logolarge, .comingsoonwrapper .logolarge a, .comingsoonwrapper .logolarge i {
+	line-height: 60px;
+	vertical-align: middle;
+	font-size: 40px;
+}
+.comingsoonwrapper .logolarge i {
+	font-size: 50px;
+}
+/*==============================================
+Lock screen page 
+=============================================*/
+.lockscreen {
+	max-width: 300px;
+	margin: 0 auto;
+	position: relative;
+	top: 10%;
+    z-index: 9
+}
+/*==============================*/
+/*====== Count Down CSS ======*/
+/*==============================*/
+.wrap {
+	position: absolute;
+	top: 15%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: auto;
+	color: #fff;
+	color: #fff;
+}
+.wrap .title {
+	font-size: 60px;
+	font-weight: 200
+}
+.countdown {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	float: left
+}
+.countdown .bloc-time {
+	float: left;
+	margin-right: 1.3%;
+	text-align: center;
+	width: 32%;
+}
+.countdown .bloc-time:last-child {
+	margin-right: 0;
+}
+.countdown .count-title {
+	display: block;
+	margin-bottom: 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+.countdown .figure {
+	position: relative;
+	float: left;
+	height: 76px;
+	width: 48%;
+	margin-right: 2%;
+	background-color: #fff;
+	border-radius: 3px;
+	-moz-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+	-webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+	box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+}
+.countdown .figure:last-child {
+	margin-right: 0;
+}
+.countdown .figure > span {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 50px;
+	font-weight: 700;
+	color: #333333;
+}
+.countdown .figure .top:after, .countdown .figure .bottom-back:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.countdown .figure .top {
+	z-index: 3;
+	background-color: #f7f7f7;
+	transform-origin: 50% 100%;
+	-webkit-transform-origin: 50% 100%;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+	-moz-transform: perspective(200px);
+	-ms-transform: perspective(200px);
+	-webkit-transform: perspective(200px);
+	transform: perspective(200px);
+}
+.countdown .figure .bottom {
+	z-index: 1;
+}
+.countdown .figure .bottom:before {
+	content: "";
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50%;
+	background-color: rgba(0, 0, 0, 0.02);
+}
+.countdown .figure .bottom-back {
+	z-index: 2;
+	top: 0;
+	height: 50%;
+	overflow: hidden;
+	background-color: #f7f7f7;
+	-moz-border-radius-topleft: 10px;
+	-webkit-border-top-left-radius: 10px;
+	border-top-left-radius: 10px;
+	-moz-border-radius-topright: 10px;
+	-webkit-border-top-right-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.countdown .figure .bottom-back span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.countdown .figure .top, .countdown .figure .top-back {
+	height: 50%;
+	overflow: hidden;
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+.countdown .figure .top-back {
+	z-index: 4;
+	bottom: 0;
+	background-color: #fff;
+	-webkit-transform-origin: 50% 0;
+	transform-origin: 50% 0;
+	-moz-transform: perspective(200px) rotateX(180deg);
+	-ms-transform: perspective(200px) rotateX(180deg);
+	-webkit-transform: perspective(200px) rotateX(180deg);
+	transform: perspective(200px) rotateX(180deg);
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.countdown .figure .top-back span {
+	position: absolute;
+	top: -100%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+/*==============================================
+colors 
+=============================================*/
+.color_pallete > div > div {
+	padding: 10px 15px;
+	line-height: 30px;
+	margin-bottom: 3px
+}
+/*==============================================
+grid page
+=============================================*/
+.grids div.col {
+	padding: 10px;
+	line-height: 30px;
+	margin-bottom: 10px;
+	color: #ffffff
+}
+/*==============================================
+Helpers  navigation
+=============================================*/
+.valign-wrapper2 {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.valign-wrapper2.large {
+	height: 200px;
+}
+/*==============================================
+Shadow navigation
+=============================================*/
+.card-panel2 {
+	padding: 10px;
+	list-style-position: 30px;
+	background: #ffffff;
+	border-radius: 3px;
+}
+/*==============================================
+Icons sets 
+=============================================*/
+.col.iconsset {
+	text-align: center;
+	padding: 15px;
+}
+.iconsset i {
+	width: 100%;
+	display: block;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.iconsset {
+	text-align: center
+}
+/*==============================================
+Chat panel
+=============================================*/
+.chat_panel {
+	position: fixed;
+	overflow: hidden;
+	overflow-y: auto;
+	width: 300px;
+	height: 100%;
+	display: block;
+	right: -300px;
+	top: 0;
+	background: #ffffff;
+	z-index: 9999;
+	transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+}
+.chat_panel.chatopen {
+	right: 0
+}
+.chat_panel nav, #nav_horizontal .chat_panel nav {
+	position: relative;
+}
+.sendmessage {
+	position: relative;
+	bottom: 0;
+	left: 0;
+	background: #ffffff;
+	border-top: 1px solid #dddddd;
+	width: 100%;
+	margin-bottom: 0;
+	float: left;
+}
+.sendmessage .btn {
+	height: 40px;
+	width: 40px;
+	position: absolute;
+	top: 0;
+	right: 10px;
+	padding: 0;
+	text-align: center;
+	line-height: 40px;
+	vertical-align: middle;
+}
+.sendmessage input {
+	margin-bottom: 0
+}
+.chat_panel a {
+	color: #666666
+}
+.chat_panel .tabs .tab a {
+	color: #666666
+}
+.chat_panel .tabs .indicator {
+	background-color: #666666;
+}
+.chat {
+	margin: 15px 0;
+	padding: 0;
+	list-style: none;
+	width: 100%;
+	float: left;
+	display: block;
+}
+.chat li {
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	position: relative
+}
+.chat li.left .chat-body {
+	margin-left: 60px;
+	background: #767676;
+	padding: 15px;
+	color: #fff;
+	margin-bottom: 5px;
+	position: relative;
+}
+.chat li.right .chat-body {
+	margin-right: 60px;
+}
+.chat li .chat-body p {
+	margin: 0;
+}
+.chat-img {
+	width: 42px;
+	height: 42px;
+	border-radius: 25px;
+	display: inline-block;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+li.right .chat-img {
+	left: auto;
+	right: 0
+}
+.chat-img img {
+	width: 100%
+}
+.chat li.left .chat-body:before {
+	content: "";
+	height: 4px;
+	width: 4px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #666666;
+	position: absolute;
+	left: -8px;
+	top: 10px;
+}
+.chat li.left .chat-body .header {
+	margin-bottom: 10px;
+}
+.chat li.left .chat-body .header .text-muted {
+	color: #ffffff;
+	opacity: 0.5
+}
+.chat li.left .chat-body p {
+	font-size: 13px;
+	opacity: 0.9;
+	line-height: 16px;
+	color: #ffffff;
+}
+.chat li.right .chat-body {
+	background: rgb(238, 238, 238);
+	padding: 15px;
+	margin-bottom: 5px;
+	position: relative;
+}
+.chat li.right .chat-body:before {
+	content: "";
+	height: 4px;
+	width: 4px;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid rgb(238, 238, 238);
+	position: absolute;
+	right: -10px;
+	top: 10px;
+}
+/*==============================================
+CKeditor basic
+=============================================*/
+
+.cke_contents {
+	height: 100px !important
+}
+/*==============================================
+Product css
+=============================================*/
+.product {
+}
+.product .card-image {
+	height: 180px;
+	vertical-align: middle;
+	line-height: 150px;
+	text-align: center;
+	overflow: hidden
+}
+.product .card-image img {
+	height: auto;
+	max-width: 100%;
+	margin: 0 auto;
+	vertical-align: middle
+}
+.product h3 {
+	font-size: 18px;
+	color: #666666;
+	margin: 0
+}
+.product .price {
+	text-align: right;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: 600;
+}
+.product .price span.savemoney {
+	text-align: right;
+	font-size: 14px;
+	color: maroon;
+	font-weight: 400
+}
+.product .rating {
+	color: gold
+}
+.product.details .card-image {
+	height: auto
+}
+hr {
+	border-top: 1px solid #dddddd;
+	border-bottom: 0;
+	margin: 15px 0
+}
+
+/*==============================================
+theme panel
+=============================================*/
+.theme_panel {
+	position: fixed;
+	overflow: hidden;
+	overflow-y: auto;
+	width: 300px;
+	height: 100%;
+	display: block;
+	right: -300px;
+	top: 0;
+	background: #ffffff;
+	z-index: 9999;
+	transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+}
+.theme_panel.themeopen {
+	right: 0
+}
+.theme_panel nav,
+#nav_horizontal .theme_panel nav {
+	position: relative;
+}
+.theme-collapse{
+    position: fixed; 
+    right: 20px;
+    bottom: 20px; 
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+.theme_panel a {
+	color: #666666
+}
+.theme_block{ 
+    width: 48%; 
+    margin: 15px 4% 5px 0%; 
+    height: 80px;
+    background: #ffffff;    
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    float: left;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.theme_block:nth-child(2n){ margin-right: 0}
+.theme_block .left_bar{
+    width: 30%;
+    height: 100%;
+    display: block;
+    float: left;
+     box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 0px 2px rgba(0, 0, 0, 0.2);
+}
+
+.theme_block .top_bar{
+    width: 70%;
+    height: 10px;
+    display: block;
+    float: left;
+}
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+
+/*==============================================
+Responsive navigation
+=============================================*/
+@media screen and (min-width:1181px) {
+/*==============================================
+    Horizontal nav css 
+    =============================================*/
+.menuoption {
+	display: none
+}
+#nav_horizontal .page_content {
+	padding-top: 194px;
+}
+#nav_horizontal nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999
+}
+#nav_horizontal nav.breadcrumbnav {
+	top: 134px;
+	z-index: 99;
+	color: #999999;
+	background: #fff !important;
+}
+#nav_horizontal nav.breadcrumbnav a {
+	/*color: #999999*/
+}
+#nav_horizontal nav.breadcrumbnav a, #nav_horizontal nav.breadcrumbnav a:before {
+	/*color: #ffffff;*/
+}
+#nav_horizontal nav.breadcrumbnav .btn {
+	color: #fff
+}
+#nav_horizontal .side-nav {
+	width: 100%;
+	top: 64px;
+	height: auto;
+	padding-bottom: 0;
+	z-index: 999;
+	overflow: visible;
+}
+#nav_horizontal .side-nav li {
+	width: auto;
+	float: left
+}
+#nav_horizontal .side-nav li a {
+	padding: 5px 8px;
+	line-height: 30px;
+	vertical-align: middle;
+	white-space: normal;
+	text-align: center;
+	height: 70px
+}
+#nav_horizontal .side-nav li .collapsible-header {
+	padding: 5px 8px;
+	line-height: 30px
+}
+#nav_horizontal .side-nav li .collapsible-body {
+	position: absolute;
+	top: 70px;
+	left: 0;
+	min-width: 180px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15)
+}
+#nav_horizontal .side-nav li .collapsible-body li {
+	width: 100%;
+	float: left
+}
+#nav_horizontal .side-nav li .collapsible-body li a {
+	height: auto;
+	padding: 0 15px;
+	line-height: 40px;
+	white-space: nowrap;
+	text-align: left
+}
+#nav_horizontal .page_wrapper {
+	margin-left: 0
+}
+#nav_horizontal .side-nav li i.material-icons {
+	display: block;
+	width: 100%;
+	font-size: 20px;
+	margin: 0;
+	line-height: 30px;
+	vertical-align: middle;
+	height: 30px;
+}
+#nav_horizontal .side-nav li i.material-icons.arrow {
+	margin: 0;
+	display: inline-block;
+	width: auto;
+	font-size: 14px;
+}
+#nav_horizontal .usernavitem {
+	display: none
+}
+#nav_horizontal {
+}
+.product .card-image {
+	height: 220px;
+}
+.product.details .card-image {
+	height: auto
+}
+}
+@media screen and (max-width:1180px) {
+.side-nav.fixed {
+	left: -300px;
+	-webkit-transform: translateX(0);
+	transform: translateX(0);
+}
+.page_wrapper {
+	margin-left: 0
+}
+.menusmall .side-nav {
+	left: 0
+}
+.menuclose .side-nav {
+	left: 0px
+}
+.side-nav a.menuclosebtn {
+	display: block
+}
+}
+@media screen and (max-width:992px) {
+nav .brand-logo {
+	left: 0%;
+	-webkit-transform: translateX(-0%);
+	transform: translateX(-0%);
+}
+}
+ @media screen and (max-width:768px) {
+.menu-small, .search_nav, .breadcrumbnav .nav-wrapper > div > .right {
+	display: none
+}
+.page_content {
+	padding: 10px 0;
+}
+.row {
+	margin-bottom: 10px;
+}
+}
+@media screen and (max-width:640px) {
+.homeslider {
+	height: 420px !important;
+}
+.col-sm-6 {
+	width: 100%;
+	text-align: center
+}
+.dataTables_filter {
+	width: 100%
+}
+.collection .collection-item.avatar .title {
+	font-size: 14px;
+	line-height: 20px
+}
+.light, footer.page-footer .footer-copyright {
+	height: auto;
+	text-align: center
+}
+}
+
+
+/*==============================================
+Scrollbar  depth 
+=============================================*/
+/* scrollbars */
+::-webkit-scrollbar {
+ width: 5px;
+ height:0px
+}
+ 
+::-webkit-scrollbar-track {
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+ -webkit-border-radius: 10px;
+ border-radius: 10px;
+ background: rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+ background: rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="18px" viewBox="0 0 16 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>play@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blocks/mini-player/single-elements/icons/play" transform="translate(-7.000000, -5.000000)">
+            <g id="play">
+                <rect id="frame" x="0" y="0" width="28" height="28"></rect>
+                <path d="M21.0694237,15.7238684 L10.0140403,22.2270351 L10.0140403,22.2270351 C9.06197401,22.7870741 7.83617054,22.4692732 7.27613157,21.517207 C7.09533552,21.2098537 7,20.8597523 7,20.5031667 L7,7.49683329 L7,7.49683329 C7,6.39226379 7.8954305,5.49683329 9,5.49683329 C9.35658556,5.49683329 9.70668696,5.5921688 10.0140403,5.77296485 L21.0694237,12.2761316 L21.0694237,12.2761316 C22.0214899,12.8361705 22.3392908,14.061974 21.7792518,15.0140403 C21.6068358,15.3071476 21.362531,15.5514524 21.0694237,15.7238684 Z" id="shapes" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

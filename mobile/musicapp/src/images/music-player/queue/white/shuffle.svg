@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="23px" viewBox="0 0 22 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>shuffle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/shuffle/small/white" transform="translate(-3.000000, -3.000000)">
+            <g id="shuffle">
+                <rect id="frame" x="0" y="0" width="28" height="28"></rect>
+                <g id="shapes" transform="translate(4.000000, 4.000000)" stroke-linecap="round" stroke="#FFFFFF" stroke-width="2.16" stroke-linejoin="round">
+                    <g id="Group-3" transform="translate(10.000000, 8.510417) scale(-1, -1) translate(-10.000000, -8.510417) translate(0.000000, 0.010417)">
+                        <polyline id="Triangle-4-Copy" points="5.1953125 16.783488 0.599759189 13.299615 0.599759189 13.299615 5.1953125 9.81574212"></polyline>
+                        <path d="M19,-2.84217094e-14 L14.2580321,-2.84217094e-14 C13.0611631,-2.84217094e-14 11.6482041,0.853181 11.0936467,1.92192393 L6.17908058,11.393275 C5.62830777,12.4547242 4.21705927,13.3151989 3.01874503,13.3151989 L2.59090909,13.3151989" id="Path-2" transform="translate(10.795455, 6.657599) scale(-1, -1) translate(-10.795455, -6.657599) "></path>
+                    </g>
+                    <g id="Group-3-Copy" transform="translate(10.000000, 12.052083) scale(-1, 1) translate(-10.000000, -12.052083) translate(0.000000, 3.552083)">
+                        <polyline id="Triangle-4-Copy" points="5.1953125 16.783488 0.599759189 13.299615 0.599759189 13.299615 5.1953125 9.81574212"></polyline>
+                        <path d="M19,0 L13.8165421,0 C12.8635013,0 11.7416346,0.673121657 11.3156963,1.49399001 L11.0242183,2.05572624 M6.8273982,10.1438374 L6.35142827,11.0611265 C5.70547046,12.3060163 4.02276845,13.3151989 2.59090909,13.3151989 L2.59090909,13.3151989" id="Path-2" transform="translate(10.795455, 6.657599) scale(-1, -1) translate(-10.795455, -6.657599) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

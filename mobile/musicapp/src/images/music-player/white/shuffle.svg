@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>shuffle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/shuffle/large/black" transform="translate(-4.000000, -4.000000)">
+            <g id="shuffle">
+                <rect id="frame" x="0" y="0" width="64" height="64"></rect>
+                <g id="shapes" transform="translate(4.000000, 4.000000)">
+                    <circle id="base" fill="#FFFFFF" cx="28.2692308" cy="27.7307692" r="27.7307692"></circle>
+                    <polyline id="Triangle-4-Copy" stroke="#1F111C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(35.102464, 21.710802) scale(-1, -1) translate(-35.102464, -21.710802) " points="37.4002408 25.1946745 32.8046875 21.7108016 32.8046875 21.7108016 37.4002408 18.2269287"></polyline>
+                    <path d="M35.4090909,21.6952178 L30.667123,21.6952178 C29.470254,21.6952178 28.057295,22.5483988 27.5027376,23.6171417 L22.5881715,33.0884927 C22.0373987,34.149942 20.6261502,35.0104167 19.4278359,35.0104167 L19,35.0104167" id="Path-2" stroke="#1F111C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <polyline id="Triangle-4-Copy" stroke="#1F111C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(35.102464, 34.851698) scale(-1, 1) translate(-35.102464, -34.851698) " points="37.4002408 38.3355713 32.8046875 34.8516984 32.8046875 34.8516984 37.4002408 31.3678255"></polyline>
+                    <path d="M35.4090909,21.5520833 L30.225633,21.5520833 C29.2725922,21.5520833 28.1507256,22.225205 27.7247872,23.0460733 L27.4333093,23.6078096 M23.2364891,31.6959207 L22.7605192,32.6132098 C22.1145614,33.8580997 20.4318594,34.8672822 19,34.8672822 L19,34.8672822" id="Path-2" stroke="#1F111C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" transform="translate(27.204545, 28.209683) scale(1, -1) translate(-27.204545, -28.209683) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

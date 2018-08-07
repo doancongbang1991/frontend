@@ -1,0 +1,587 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Preclinic - Bootstrap Admin Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets\img\favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets\css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="header">
+            <div class="header-left">
+                <a href="index.html" class="logo">
+                    <img src="assets\img\logo.png" width="42" height="42" alt="Preclinic">
+                </a>
+            </div>
+            <div class="page-title-box pull-left">
+                <h3><span class="welcome-text">Welcome back,</span> Super Admin</h3>
+            </div>
+            <a id="mobile_btn" class="mobile_btn pull-left" href="#sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul class="nav navbar-nav navbar-right user-menu pull-right">
+                <li class="dropdown hidden-xs">
+                    <a href="#" class="hasnotifications dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <span class="badge bg-danger pull-right">3</span></a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
+                            <span>Notifications</span>
+                        </div>
+                        <div class="drop-scroll">
+                            <ul class="media-list scroll-content">
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">
+												<img alt="John Doe" src="assets\img\user.jpeg" class="img-responsive img-circle">
+											</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Charles Ortega</span> booked <span class="noti-title">new appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">V</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Joshua Guzman</span> booked <span class="noti-title">new appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">L</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Cristina Groves</span> completed appointment of <span class="noti-title">Denise Stevens</span> </p>
+                                            <p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">G</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Julia Sims</span> cancelled <span class="noti-title">appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">V</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Ronald Jacobs</span> rejected <span class="noti-title"><span class="noti-title">Marie Howard's</span> appointment</span>
+                                            </p>
+                                            <p class="noti-time"><span class="notification-time">2 days ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topnav-dropdown-footer">
+                            <a href="notifications.html">View all Notifications</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle user-link" data-toggle="dropdown" title="Admin"><img class="img-circle" src="assets\img\user.jpeg" width="40" alt=""></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="profile.html">My Profile</a></li>
+                        <li><a href="login.html">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="dropdown mobile-user-menu pull-right">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                <ul class="dropdown-menu pull-right">
+                    <li><a href="profile.html">My Profile</a></li>
+                    <li><a href="login.html">Logout</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title"><i class="fa fa-dashboard"></i> People</li>
+                        <li>
+                            <a href="index.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="doctors.html">Doctors</a>
+                        </li>
+                        <li>
+                            <a href="patients.html">Patients</a>
+                        </li>
+                        <li>
+                            <a href="staff.html">Staff</a>
+                        </li>
+                        <li>
+                            <a href="staff-rota.html">Staff Rota</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-medkit"></i> Treatment</li>
+                        <li>
+                            <a href="treatment-episode.html">Treatment Episode</a>
+                        </li>
+                        <li class="active">
+                            <a href="treatment-form.html">Treatment Form</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-clock-o"></i> Appointments</li>
+                        <li>
+                            <a href="appointment.html">Appointment</a>
+                        </li>
+                        <li>
+                            <a href="list-diary.html">List Diary</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-usd"></i> Accounts</li>
+                        <li>
+                            <a href="charge-patient.html">Charge for Patient</a>
+                        </li>
+                        <li>
+                            <a href="invoices.html">Invoices</a>
+                        </li>
+                        <li>
+                            <a href="payments.html">Payments</a>
+                        </li>
+                        <li>
+                            <a href="expenses.html">Expenses</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-file-text-o"></i> Reports</li>
+                        <li>
+                            <a href="expense-reports.html">Expense Reports</a>
+                        </li>
+                        <li>
+                            <a href="invoice-reports.html">Invoice Reports</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-file-text" aria-hidden="true"></i> Extra Pages</li>
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="forgot-password.html">Forgot Password</a>
+                        </li>
+                        <li>
+                            <a href="health-check.html">Health Check</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="content container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4 class="page-title">Treatment Form</h4>
+                    </div>
+                </div>
+                <div class="row m-b-20">
+                    <div class="col-xs-12 col-sm-5 col-md-4">
+                        <div class="input-group search-box">
+                            <input placeholder="Search" class="form-control search-input" id="btn-input" type="text">
+                            <span class="input-group-btn">
+									<button class="btn btn-primary"><i class="fa fa-search"></i></button>
+								</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="form-nest">
+                            <ul>
+                                <li>
+                                    <a class="" data-toggle="collapse" href="#form_menu1" aria-expanded="false" aria-controls="form_menu1">All Forms</a>
+                                    <ul id="form_menu1" class="collapse">
+                                        <li>
+                                            <a href="#">Charts</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Chiropract Forms</a>
+                                        </li>
+                                        <li>
+                                            <a class="" role="button" data-toggle="collapse" href="#form_menu2" aria-expanded="false" aria-controls="form_menu2">General</a>
+                                            <ul class="collapse" id="form_menu2">
+                                                <li><a href="">General Assessment Form</a></li>
+                                                <li><a href="">Lower Back Pain</a></li>
+                                                <li><a href="">Medical History and Assessment Form</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">General Assessment Form</a>
+                                </li>
+                                <li>
+                                    <a href="#">Medical History and General Assessment Form</a>
+                                </li>
+                                <li>
+                                    <a href="#">Osteopathy Initial Assessment Form</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3>Sample Form 1</h3>
+                                <div class="card-box">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">First Name</label>
+                                                            <input type="text" class="form-control" placeholder="John">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Last Name</label>
+                                                            <input type="text" class="form-control" placeholder="Doe">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Email</label>
+                                                            <input type="email" class="form-control" placeholder="Enter Email">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Date of Birth</label>
+                                                            <input type="text" class="form-control" placeholder="dd/mm/yyyy">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Blood Group</label>
+                                                            <select class="form-control">
+                                                                <option>A+</option>
+                                                                <option>O+</option>
+                                                                <option>B+</option>
+                                                                <option>AB+</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Gender</label>
+                                                            <div>
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="optradio">Male</label>
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="optradio">Female</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-12 ">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Street</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">City</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">State</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label">Post Code</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label mb-10">Country</label>
+                                                            <select class="form-control">
+                                                                <option>--Select Country--</option>
+                                                                <option>USA</option>
+                                                                <option>France</option>
+                                                                <option>Australia</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="m-t-20">
+                                                    <button type="submit" class="btn btn-primary m-r-5"> Save</button>
+                                                    <button type="button" class="btn btn-default">Cancel</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h3>Sample Form 2</h3>
+                                <div class="card-box">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <form action="#" class="form-horizontal">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">First Name</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" class="form-control" placeholder="John">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Last Name</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" class="form-control" placeholder="Doe">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Email</label>
+                                                            <div class="col-md-9">
+                                                                <input type="email" class="form-control" placeholder="Enter Email">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Date of Birth</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" class="form-control" placeholder="dd/mm/yyyy">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Blood Group</label>
+                                                            <div class="col-md-9">
+                                                                <select class="form-control">
+                                                                    <option>A+</option>
+                                                                    <option>O+</option>
+                                                                    <option>B+</option>
+                                                                    <option>AB+</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Gender</label>
+                                                            <div class="col-md-9">
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="optradio">Male</label>
+                                                                <label class="radio-inline">
+                                                                    <input type="radio" name="optradio">Female</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Address 1</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Address 2</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">City</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">State</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Post Code</label>
+                                                            <div class="col-md-9">
+                                                                <input type="text" class="form-control">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label col-md-3">Country</label>
+                                                            <div class="col-md-9">
+                                                                <select class="form-control">
+                                                                    <option>Country 1</option>
+                                                                    <option>Country 2</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="m-t-20">
+                                                    <div class="row">
+                                                        <div class="col-md-6">
+                                                            <div class="row">
+                                                                <div class="col-md-offset-3 col-md-12">
+                                                                    <button type="submit" class="btn btn-primary m-r-5">Submit</button>
+                                                                    <button type="button" class="btn btn-default">Cancel</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h3>Basic Form</h3>
+                                <div class="card-box">
+                                    <form>
+                                        <div class="form-group">
+                                            <label class="control-label">Text Input</label>
+                                            <input class="form-control" value="John Doe" type="text">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label" for="example-email">Email Input</label>
+                                            <input id="example-email" name="example-email" class="form-control" placeholder="Email" type="email">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">Password</label>
+                                            <input class="form-control" value="password" type="password">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">Placeholder</label>
+                                            <input class="form-control" placeholder="placeholder" type="text">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">Text area</label>
+                                            <textarea class="form-control" rows="4"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">select</label>
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>
+                                                <option>3</option>
+                                                <option>4</option>
+                                                <option>5</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">Radio</label>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optradio">Male</label>
+                                            </div>
+                                            <div class="radio">
+                                                <label>
+                                                    <input type="radio" name="optradio">Female</label>
+                                            </div>
+                                            <div class="radio disabled">
+                                                <label>
+                                                    <input type="radio" name="optradio" disabled="">Option 3</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">Checkbox</label>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Option 1</label>
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox" value="">Option 2</label>
+                                            </div>
+                                            <div class="checkbox disabled">
+                                                <label>
+                                                    <input type="checkbox" value="" disabled="">Option 3</label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="control-label">File upload</label>
+                                            <input class="form-control" type="file">
+                                        </div>
+                                        <div class="m-t-20">
+                                            <button type="submit" class="btn btn-primary m-r-5"> Save</button>
+                                            <button type="button" class="btn btn-default">Cancel</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-overlay" data-reff="#sidebar"></div>
+    <script type="text/javascript" src="assets\js\modernizr.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets\js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="assets\js\app.js"></script>
+</body>
+
+</html>

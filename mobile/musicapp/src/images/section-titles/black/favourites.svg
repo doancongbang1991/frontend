@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>favorites</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/heart/black" transform="translate(-8.000000, -9.000000)">
+            <g id="favorites">
+                <rect id="frame" x="0" y="0" width="34" height="34"></rect>
+                <path d="M17,13.4390482 C17.7832312,11.4787598 19.020344,10.3388526 20.390625,10.3388526 C22.7984436,10.3388526 24.75,12.5235922 24.75,15.21875 C24.75,20.800383 17,24.0025653 17,24.0025653 C17,24.0025653 9.25,20.800383 9.25,15.21875 C9.25,12.5235922 11.2015564,10.3388526 13.609375,10.3388526 C14.979656,10.3388526 16.2162876,11.3969727 17,13.4390482 Z" id="icon" stroke="#000000" stroke-width="2.5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

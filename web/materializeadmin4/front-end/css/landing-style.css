@@ -1,0 +1,142 @@
+/* Font */
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+	font-family: 'Poppins', sans-serif !important;	
+}
+
+p{
+	font-size: 16px !important;
+}
+
+/* Logo */
+
+header .brand-logo img {
+  height: auto !important;
+  width: 42px !important;
+  margin-top: -2px;
+  margin-left:10px; 
+}
+
+header .brand-logo {
+  padding: 0px !important;
+}
+
+/* Nav */
+
+nav {
+  background-color: transparent !important;
+}
+
+.headroom--pinned {
+  background: #7b1fa2;
+  background: -webkit-linear-gradient(45deg, #7b1fa2 0%, #7c4dff 100%);
+  background: linear-gradient(45deg, #7b1fa2 0%, #7c4dff 100%);
+}
+
+nav ul li{
+  padding-top: 5px !important;
+}
+
+/* Banner */
+
+.head-banner{
+	background-image: url("../images/headBanner.png");
+	background-size:  cover;
+}
+
+.banner{
+	height:calc(100vh) !important;
+}
+
+@keyframes animatedBackground {
+  from { background-position: 0 0; }
+  to { background-position: 400% 0%; }
+}
+
+#animate-area { 
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+
+  animation: animatedBackground 100s linear infinite;
+}
+
+/* Material Icons */
+.material-icons{
+  font-size: 48px !important;
+}
+
+/* Parallax */
+
+.parallax-container {
+    position: relative;
+    overflow: hidden;
+    height: 650px !important;
+}
+
+
+.offer{
+  margin-left: 20px; 
+  background: #FF5252;
+  background: -webkit-linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+  background: linear-gradient(45deg, #FF5252 0%, #f48fb1 100%);
+  color: #fff;
+  border-radius: 50px;
+  font-size: 20px;
+  padding: 2px;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+/* Headroom CSS */
+
+.headroom {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: .25s
+    -o-transition: .25s
+    -moz-transition: .25s
+    -ms-transition: .25s
+    transition: transform .25s ease-in-out;
+}
+.headroom--unpinned {
+    top: -108px;
+  -webkit-transition: .25s;
+  -o-transition: .25s;
+  -moz-transition: .25s;
+  -ms-transition: .25s;
+  transition: .25s;
+  -webkit-transform: translateY(-108px);
+  -o-transform: translateY(-108px);
+  -moz-transform: translateY(-108px);
+  -ms-transform: translateY(-108px);
+  transform: translateY(-108px);
+}
+
+.headroom--pinned {
+   top: 0;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  transition: .5s;
+}
+
+/*Vertical Align*/
+
+.vertical-middle{
+  vertical-align: middle;
+}
+
+
+@media only screen and (min-width: 601px) {
+  .navbar-fixed {
+      height: 70px !important;
+  }
+}

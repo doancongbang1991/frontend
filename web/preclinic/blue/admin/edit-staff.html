@@ -1,0 +1,478 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Preclinic - Bootstrap Admin Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets\img\favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets\css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\bootstrap-datetimepicker.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="header">
+            <div class="header-left">
+                <a href="index.html" class="logo">
+                    <img src="assets\img\logo.png" width="42" height="42" alt="Preclinic">
+                </a>
+            </div>
+            <div class="page-title-box pull-left">
+                <h3><span class="welcome-text">Welcome back,</span> Super Admin</h3>
+            </div>
+            <a id="mobile_btn" class="mobile_btn pull-left" href="#sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul class="nav navbar-nav navbar-right user-menu pull-right">
+                <li class="dropdown hidden-xs">
+                    <a href="#" class="hasnotifications dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <span class="badge bg-danger pull-right">3</span></a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
+                            <span>Notifications</span>
+                        </div>
+                        <div class="drop-scroll">
+                            <ul class="media-list scroll-content">
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">
+												<img alt="John Doe" src="assets\img\user.jpeg" class="img-responsive img-circle">
+											</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Charles Ortega</span> booked <span class="noti-title">new appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">V</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Joshua Guzman</span> booked <span class="noti-title">new appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">L</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Cristina Groves</span> completed appointment of <span class="noti-title">Denise Stevens</span> </p>
+                                            <p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">G</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Julia Sims</span> cancelled <span class="noti-title">appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">V</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Ronald Jacobs</span> rejected <span class="noti-title"><span class="noti-title">Marie Howard's</span> appointment</span>
+                                            </p>
+                                            <p class="noti-time"><span class="notification-time">2 days ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topnav-dropdown-footer">
+                            <a href="notifications.html">View all Notifications</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle user-link" data-toggle="dropdown" title="Admin"><img class="img-circle" src="assets\img\user.jpeg" width="40" alt=""></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="profile.html">My Profile</a></li>
+                        <li><a href="login.html">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="dropdown mobile-user-menu pull-right">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                <ul class="dropdown-menu pull-right">
+                    <li><a href="profile.html">My Profile</a></li>
+                    <li><a href="login.html">Logout</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title"><i class="fa fa-dashboard"></i> People</li>
+                        <li>
+                            <a href="index.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="doctors.html">Doctors</a>
+                        </li>
+                        <li>
+                            <a href="patients.html">Patients</a>
+                        </li>
+                        <li class="active">
+                            <a href="staff.html">Staff</a>
+                        </li>
+                        <li>
+                            <a href="staff-rota.html">Staff Rota</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-medkit"></i> Treatment</li>
+                        <li>
+                            <a href="treatment-episode.html">Treatment Episode</a>
+                        </li>
+                        <li>
+                            <a href="treatment-form.html">Treatment Form</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-clock-o"></i> Appointments</li>
+                        <li>
+                            <a href="appointment.html">Appointment</a>
+                        </li>
+                        <li>
+                            <a href="list-diary.html">List Diary</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-usd"></i> Accounts</li>
+                        <li>
+                            <a href="charge-patient.html">Charge for Patient</a>
+                        </li>
+                        <li>
+                            <a href="invoices.html">Invoices</a>
+                        </li>
+                        <li>
+                            <a href="payments.html">Payments</a>
+                        </li>
+                        <li>
+                            <a href="expenses.html">Expenses</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-file-text-o"></i> Reports</li>
+                        <li>
+                            <a href="expense-reports.html">Expense Reports</a>
+                        </li>
+                        <li>
+                            <a href="invoice-reports.html">Invoice Reports</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-file-text" aria-hidden="true"></i> Extra Pages</li>
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="forgot-password.html">Forgot Password</a>
+                        </li>
+                        <li>
+                            <a href="health-check.html">Health Check</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="content container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4 class="page-title">Edit Staff</h4>
+                    </div>
+                </div>
+                <form class="form-horizontal" action="#">
+                    <div class="card-box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Title</label>
+                                    <div class="col-lg-4">
+                                        <select class="select">
+                                            <option value="">Mr</option>
+                                            <option value="">Mrs</option>
+                                            <option value="">Miss</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Known as</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text" value="Bernardo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">First Name</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text" value="Bernardo">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Last Name</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text" value="Galaviz">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Sex</label>
+                                    <div class="col-lg-4">
+                                        <select class="select">
+                                            <option value="">Male</option>
+                                            <option value="">Female</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Date of Birth</label>
+                                    <div class="col-lg-9">
+                                        <div class="cal-icon">
+                                            <input class="form-control datetimepicker" type="text" value="19/12/2017">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Phone Number</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text" value="(592) 733 3044">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Mobile Number</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text" value="(592) 733 3044">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Email</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text" value="bernardogalaviz@example.com">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Address Line1</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text" value="555 Front St #APT 2H">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Address Line2</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">City</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text" value="Hempstead">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">State</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text" value="New York">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Postal Code</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text" value="11550">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <h3 class="card-title">Room Preference</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Preference Room1</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Preference Room2</label>
+                                    <div class="col-lg-9">
+                                        <input class="form-control" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add-more">
+                            <a href="#" class="btn add-btn btn-custom"><i class="fa fa-plus"></i> Add More Reference</a>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <h3 class="card-title">Notes</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Notes</label>
+                                    <div class="col-lg-9">
+                                        <textarea rows="5" cols="5" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Account Notes</label>
+                                    <div class="col-lg-9">
+                                        <textarea rows="5" cols="5" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-lg-3 control-label">Reference Doctor Notes</label>
+                                    <div class="col-lg-9">
+                                        <textarea rows="5" cols="5" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add-more">
+                            <a href="#" class="btn add-btn btn-custom"><i class="fa fa-plus"></i> Add More Notes</a>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <h3 class="card-title">Preferences</h3>
+                        <div class="table-responsive">
+                            <table class="table table-borderless table-hover">
+                                <thead>
+                                    <tr>
+                                        <th class="col-md-4"></th>
+                                        <th class="col-md-2 text-center">Letter</th>
+                                        <th class="col-md-2 text-center">Email</th>
+                                        <th class="col-md-2 text-center">SMS</th>
+                                        <th class="col-md-2 text-center">Calls</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Rota Booking Confirmation</td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Rota Reminder</td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Marketing & Other Details</td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                        <td class="text-center">
+                                            <input type="checkbox" checked="">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <h3 class="card-title">Staff Portal</h3>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="col-xs-12 control-label">Give Access to Client Portal
+                                        <input type="checkbox" class="m-l-15">
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="add-more">
+                            <a href="#" class="btn add-btn btn-custom">Generate and Send Password</a>
+                        </div>
+                    </div>
+                    <div class="text-center submit-btns">
+                        <button type="submit" class="btn btn-primary m-r-20">Save</button>
+                        <button type="submit" class="btn btn-custom">Ignore</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-overlay" data-reff="#sidebar"></div>
+    <script type="text/javascript" src="assets\js\modernizr.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets\js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="assets\js\select2.min.js"></script>
+    <script type="text/javascript" src="assets\js\moment.min.js"></script>
+    <script type="text/javascript" src="assets\js\bootstrap-datetimepicker.min.js"></script>
+    <script type="text/javascript" src="assets\js\app.js"></script>
+</body>
+
+</html>

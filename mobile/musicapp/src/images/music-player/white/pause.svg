@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>pause</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/pause" transform="translate(-4.000000, -4.000000)">
+            <g id="pause">
+                <rect id="frame" x="0" y="0" width="64" height="64"></rect>
+                <path d="M32.2692308,59.4615385 C16.9539498,59.4615385 4.53846154,47.0460502 4.53846154,31.7307692 C4.53846154,16.4154883 16.9539498,4 32.2692308,4 C47.5845117,4 60,16.4154883 60,31.7307692 C60,47.0460502 47.5845117,59.4615385 32.2692308,59.4615385 Z M25,24.008788 L25,38.991212 C25,40.6544098 26.3431458,42 28,42 C29.6534829,42 31,40.6529197 31,38.991212 L31,24.008788 C31,22.3455902 29.6568542,21 28,21 C26.3465171,21 25,22.3470803 25,24.008788 Z M34,24.008788 L34,38.991212 C34,40.6544098 35.3431458,42 37,42 C38.6534829,42 40,40.6529197 40,38.991212 L40,24.008788 C40,22.3455902 38.6568542,21 37,21 C35.3465171,21 34,22.3470803 34,24.008788 Z" id="shapes" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

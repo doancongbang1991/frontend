@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>artists@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/person/white" transform="translate(-2.000000, 2.000000)">
+            <g id="artists" transform="translate(-2.000000, -2.000000)">
+                <rect id="frame" opacity="0.530061141" x="0" y="0" width="29" height="23"></rect>
+                <g id="shapes" transform="translate(6.000000, 0.000000)">
+                    <path d="M16,19.3149475 C16,15.9841906 12.418278,13.2840787 8,13.2840787 C3.581722,13.2840787 -4.79616347e-14,15.9841906 -4.79616347e-14,19.3149475" id="Oval-5" stroke="#FFFFFF" stroke-width="2.64" stroke-linecap="round"></path>
+                    <circle id="Oval-6" fill="#FFFFFF" cx="8.07459881" cy="5.82761489" r="5.23682114"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

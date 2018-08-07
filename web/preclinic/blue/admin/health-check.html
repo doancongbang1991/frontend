@@ -1,0 +1,462 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Preclinic - Bootstrap Admin Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets\img\favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets\css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\select2.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="header">
+            <div class="header-left">
+                <a href="index.html" class="logo">
+                    <img src="assets\img\logo.png" width="42" height="42" alt="Preclinic">
+                </a>
+            </div>
+            <div class="page-title-box pull-left">
+                <h3><span class="welcome-text">Welcome back,</span> Super Admin</h3>
+            </div>
+            <a id="mobile_btn" class="mobile_btn pull-left" href="#sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul class="nav navbar-nav navbar-right user-menu pull-right">
+                <li class="dropdown hidden-xs">
+                    <a href="#" class="hasnotifications dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <span class="badge bg-danger pull-right">3</span></a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
+                            <span>Notifications</span>
+                        </div>
+                        <div class="drop-scroll">
+                            <ul class="media-list scroll-content">
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">
+												<img alt="John Doe" src="assets\img\user.jpeg" class="img-responsive img-circle">
+											</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Charles Ortega</span> booked <span class="noti-title">new appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">V</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Joshua Guzman</span> booked <span class="noti-title">new appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">L</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Cristina Groves</span> completed appointment of <span class="noti-title">Denise Stevens</span> </p>
+                                            <p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">G</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Julia Sims</span> cancelled <span class="noti-title">appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">V</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Ronald Jacobs</span> rejected <span class="noti-title"><span class="noti-title">Marie Howard's</span> appointment</span>
+                                            </p>
+                                            <p class="noti-time"><span class="notification-time">2 days ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topnav-dropdown-footer">
+                            <a href="notifications.html">View all Notifications</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle user-link" data-toggle="dropdown" title="Admin"><img class="img-circle" src="assets\img\user.jpeg" width="40" alt=""></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="profile.html">My Profile</a></li>
+                        <li><a href="login.html">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="dropdown mobile-user-menu pull-right">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                <ul class="dropdown-menu pull-right">
+                    <li><a href="profile.html">My Profile</a></li>
+                    <li><a href="login.html">Logout</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title"><i class="fa fa-dashboard"></i> People</li>
+                        <li>
+                            <a href="index.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="doctors.html">Doctors</a>
+                        </li>
+                        <li>
+                            <a href="patients.html">Patients</a>
+                        </li>
+                        <li>
+                            <a href="staff.html">Staff</a>
+                        </li>
+                        <li>
+                            <a href="staff-rota.html">Staff Rota</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-medkit"></i> Treatment</li>
+                        <li>
+                            <a href="treatment-episode.html">Treatment Episode</a>
+                        </li>
+                        <li>
+                            <a href="treatment-form.html">Treatment Form</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-clock-o"></i> Appointments</li>
+                        <li>
+                            <a href="appointment.html">Appointment</a>
+                        </li>
+                        <li>
+                            <a href="list-diary.html">List Diary</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-usd"></i> Accounts</li>
+                        <li>
+                            <a href="charge-patient.html">Charge for Patient</a>
+                        </li>
+                        <li>
+                            <a href="invoices.html">Invoices</a>
+                        </li>
+                        <li>
+                            <a href="payments.html">Payments</a>
+                        </li>
+                        <li>
+                            <a href="expenses.html">Expenses</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-file-text-o"></i> Reports</li>
+                        <li>
+                            <a href="expense-reports.html">Expense Reports</a>
+                        </li>
+                        <li>
+                            <a href="invoice-reports.html">Invoice Reports</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-file-text" aria-hidden="true"></i> Extra Pages</li>
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="forgot-password.html">Forgot Password</a>
+                        </li>
+                        <li class="active">
+                            <a href="health-check.html">Health Check</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="content container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4 class="page-title">Health Check</h4>
+                    </div>
+                </div>
+                <div class="row m-b-20">
+                    <div class="col-xs-12">
+                        <div class="patient-check">
+                            <span>Patient Name:</span> <a href="#">Charles Ortega</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card-box m-b-0">
+                            <div class="table-responsive">
+                                <table class="table table-striped health-table m-b-0">
+                                    <thead>
+                                        <tr>
+                                            <th>S.No</th>
+                                            <th>Question</th>
+                                            <th>Yes / No</th>
+                                            <th class="col-md-4">Summary Answer</th>
+                                            <th class="text-center">Next Review</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Are you on Medication?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Are you taking Steriods?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Have you ever had Rheumatic fever?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Are you expecting a baby?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Have you ever had a Joundice?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>Have you ever had Hepatitis?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>7</td>
+                                            <td>Have you ever had trouble with Heart/Chest?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>8</td>
+                                            <td>Have you ever had bad reaction to anaesthetics?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>9</td>
+                                            <td>Do you suffer from Allergies?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td>Do you suffer from any blood disorder?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>11</td>
+                                            <td>Do you have a faintic attacs or disorder?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>12</td>
+                                            <td>Do you have Diabetes?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>13</td>
+                                            <td>Are there any other medical details about yoursef?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>14</td>
+                                            <td>Have you had any surgeries or been in hospital?</td>
+                                            <td>
+                                                <select class="select">
+                                                    <option value="">Yes</option>
+                                                    <option value="">No</option>
+                                                </select>
+                                            </td>
+                                            <td>
+                                                <input class="form-control" type="text">
+                                            </td>
+                                            <td class="text-center">
+                                                <input type="checkbox">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-overlay" data-reff="#sidebar"></div>
+    <script type="text/javascript" src="assets\js\modernizr.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets\js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="assets\js\select2.min.js"></script>
+    <script type="text/javascript" src="assets\js\app.js"></script>
+</body>
+
+</html>

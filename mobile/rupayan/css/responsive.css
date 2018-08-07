@@ -1,0 +1,29 @@
+/* large mobie. */
+@media (min-width: 320px) and (max-width:458px) {
+
+
+
+}/* large mobie. */
+@media (min-width: 459px) and (max-width:748px) {
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 749px) {
+.slide-text h2 {
+  font-size: 50px;
+  line-height: 60px;
+}
+.slide-text {
+  bottom: 50%;
+  color: #ffffff;
+  left: 0;
+  line-height: 22px;
+  margin-bottom: -61px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+}
+

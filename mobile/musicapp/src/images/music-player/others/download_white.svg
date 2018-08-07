@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="19px" viewBox="0 0 13 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>download_white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/download/small/white" transform="translate(-7.000000, -4.000000)">
+            <g id="download_white">
+                <rect id="frame" x="0" y="0" width="29" height="29"></rect>
+                <g id="shapes" transform="translate(7.000000, 4.000000)" fill="#FFFFFF">
+                    <path d="M8.05538647,8.78253 L8.05538647,1.78538649 C8.05538647,0.799344761 7.25604171,-1.81132928e-16 6.26999998,0 C5.28395825,1.81132928e-16 4.48461349,0.799344761 4.48461349,1.78538649 L4.48461349,1.78538649 L4.48461349,8.78253 L3.04784539,7.34576191 C2.35060859,6.64852511 1.22016439,6.64852511 0.522927597,7.34576191 L0.522927597,7.34576191 L0.522927597,7.34576191 C-0.174309199,8.0429987 -0.174309199,9.1734429 0.522927597,9.8706797 L4.73112392,14.078876 C5.15027011,14.4980222 5.72597108,14.6651973 6.26999998,14.5804013 C6.81402889,14.6651973 7.38972985,14.4980222 7.80887604,14.078876 L12.0170724,9.8706797 C12.7143092,9.1734429 12.7143092,8.0429987 12.0170724,7.34576191 C11.3198356,6.64852511 10.1893914,6.64852511 9.49215457,7.34576191 L8.05538647,8.78253 Z" id="Combined-Shape"></path>
+                    <rect id="Rectangle-4" x="1" y="16" width="11" height="3" rx="1.5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

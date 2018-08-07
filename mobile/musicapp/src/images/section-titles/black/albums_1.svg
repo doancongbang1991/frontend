@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>albums_1@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/disk/black/small" transform="translate(-7.000000, -7.000000)">
+            <g id="albums_1">
+                <rect id="frame" x="0" y="0" width="34" height="34"></rect>
+                <g id="shapes" transform="translate(7.000000, 7.000000)">
+                    <circle id="Oval" fill="#1F111C" cx="10" cy="10" r="10"></circle>
+                    <circle id="Oval-Copy" fill="#FFFFFF" cx="10" cy="10" r="2.5"></circle>
+                    <path d="M10,16 L10,16 C13.3137085,16 16,13.3137085 16,10" id="Oval-Copy-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10,4 C6.6862915,4 4,6.6862915 4,10" id="Oval-Copy-3" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,460 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>Preclinic - Bootstrap Admin Template</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets\img\favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets\css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+    <!--[if lt IE 9]>
+		<script src="assets/js/html5shiv.min.js"></script>
+		<script src="assets/js/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <div class="header">
+            <div class="header-left">
+                <a href="index.html" class="logo">
+                    <img src="assets\img\logo.png" width="42" height="42" alt="Preclinic">
+                </a>
+            </div>
+            <div class="page-title-box pull-left">
+                <h3><span class="welcome-text">Welcome back,</span> Super Admin</h3>
+            </div>
+            <a id="mobile_btn" class="mobile_btn pull-left" href="#sidebar"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            <ul class="nav navbar-nav navbar-right user-menu pull-right">
+                <li class="dropdown hidden-xs">
+                    <a href="#" class="hasnotifications dropdown-toggle" data-toggle="dropdown"><i class="fa fa-bell"></i> <span class="badge bg-danger pull-right">3</span></a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
+                            <span>Notifications</span>
+                        </div>
+                        <div class="drop-scroll">
+                            <ul class="media-list scroll-content">
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">
+												<img alt="John Doe" src="assets\img\user.jpeg" class="img-responsive img-circle">
+											</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Charles Ortega</span> booked <span class="noti-title">new appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">4 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">V</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Joshua Guzman</span> booked <span class="noti-title">new appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">6 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">L</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Cristina Groves</span> completed appointment of <span class="noti-title">Denise Stevens</span> </p>
+                                            <p class="noti-time"><span class="notification-time">8 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">G</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Julia Sims</span> cancelled <span class="noti-title">appointment</span></p>
+                                            <p class="noti-time"><span class="notification-time">12 mins ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="media notification-message">
+                                    <a href="notifications.html">
+                                        <div class="media-left">
+                                            <span class="avatar">V</span>
+                                        </div>
+                                        <div class="media-body">
+                                            <p class="noti-details"><span class="noti-title">Ronald Jacobs</span> rejected <span class="noti-title"><span class="noti-title">Marie Howard's</span> appointment</span>
+                                            </p>
+                                            <p class="noti-time"><span class="notification-time">2 days ago</span></p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topnav-dropdown-footer">
+                            <a href="notifications.html">View all Notifications</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle user-link" data-toggle="dropdown" title="Admin"><img class="img-circle" src="assets\img\user.jpeg" width="40" alt=""></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="profile.html">My Profile</a></li>
+                        <li><a href="login.html">Logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="dropdown mobile-user-menu pull-right">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                <ul class="dropdown-menu pull-right">
+                    <li><a href="profile.html">My Profile</a></li>
+                    <li><a href="login.html">Logout</a></li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="sidebar" id="sidebar">
+            <div class="sidebar-inner slimscroll">
+                <div class="sidebar-menu">
+                    <ul>
+                        <li class="menu-title"><i class="fa fa-dashboard"></i> People</li>
+                        <li class="active">
+                            <a href="index.html">Dashboard</a>
+                        </li>
+                        <li>
+                            <a href="doctors.html">Doctors</a>
+                        </li>
+                        <li>
+                            <a href="patients.html">Patients</a>
+                        </li>
+                        <li>
+                            <a href="staff.html">Staff</a>
+                        </li>
+                        <li>
+                            <a href="staff-rota.html">Staff Rota</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-medkit"></i> Treatment</li>
+                        <li>
+                            <a href="treatment-episode.html">Treatment Episode</a>
+                        </li>
+                        <li>
+                            <a href="treatment-form.html">Treatment Form</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-clock-o"></i> Appointments</li>
+                        <li>
+                            <a href="appointment.html">Appointment</a>
+                        </li>
+                        <li>
+                            <a href="list-diary.html">List Diary</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-usd"></i> Accounts</li>
+                        <li>
+                            <a href="charge-patient.html">Charge for Patient</a>
+                        </li>
+                        <li>
+                            <a href="invoices.html">Invoices</a>
+                        </li>
+                        <li>
+                            <a href="payments.html">Payments</a>
+                        </li>
+                        <li>
+                            <a href="expenses.html">Expenses</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-file-text-o"></i> Reports</li>
+                        <li>
+                            <a href="expense-reports.html">Expense Reports</a>
+                        </li>
+                        <li>
+                            <a href="invoice-reports.html">Invoice Reports</a>
+                        </li>
+                        <li class="menu-title"><i class="fa fa-file-text" aria-hidden="true"></i> Extra Pages</li>
+                        <li>
+                            <a href="login.html">Login</a>
+                        </li>
+                        <li>
+                            <a href="forgot-password.html">Forgot Password</a>
+                        </li>
+                        <li>
+                            <a href="health-check.html">Health Check</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content-wrap">
+            <div class="content container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h4 class="page-title">Dashboard</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="card-box">
+                            <h3 class="card-title">Today’s Appointment</h3>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Time</th>
+                                            <th>Patient Name</th>
+                                            <th>Consultation</th>
+                                            <th>Room</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>9:00am - 10:00am</td>
+                                            <td>Charles Ortega</td>
+                                            <td>Online</td>
+                                            <td>NA</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10:00am - 11:00am</td>
+                                            <td>Denise Stevens</td>
+                                            <td>Clinic</td>
+                                            <td>Room 1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>11:00am - 12:00pm</td>
+                                            <td>Dennis Salazar</td>
+                                            <td>Clinic</td>
+                                            <td>Room 3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12:00pm - 1:00pm</td>
+                                            <td>Jennifer Robinson</td>
+                                            <td>Clinic</td>
+                                            <td>Room 4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>1:00pm - 2:00pm</td>
+                                            <td>Joshua Guzman</td>
+                                            <td>Online</td>
+                                            <td>NA</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2:00pm - 3:00pm</td>
+                                            <td>Judy Clark</td>
+                                            <td>Clinic</td>
+                                            <td>Room 3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3:00pm - 4:00pm</td>
+                                            <td>Julia Sims</td>
+                                            <td>Online</td>
+                                            <td>NA</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="card-box">
+                            <h3 class="card-title">Today’s Staff Rota</h3>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Staff Name</th>
+                                            <th>Time</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Bernardo Galaviz</td>
+                                            <td>9:00am - 10:00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Catherine Manseau</td>
+                                            <td>10:00am - 11:00am</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jeffery Lalor</td>
+                                            <td>11:00am - 12:00pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jeffrey Warden</td>
+                                            <td>12:00pm - 1:00pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>John Doe</td>
+                                            <td>1:00pm - 2:00pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>John Smith</td>
+                                            <td>2:00pm - 3:00pm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lesley Grauer</td>
+                                            <td>3:00pm - 4:00pm</td>
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card-box">
+                            <h3 class="card-title">Patient List</h3>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Age</th>
+                                            <th>Address</th>
+                                            <th>Phone</th>
+                                            <th>Email</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Charles Ortega</td>
+                                            <td>32</td>
+                                            <td>3169 Birch Street, El Paso, TX, 79915</td>
+                                            <td>(380) 141 1885</td>
+                                            <td>charlesortega@example.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Denise Stevens</td>
+                                            <td>7</td>
+                                            <td>1603 Old York Rd, Abington, PA, 19001</td>
+                                            <td>(836) 257 1379</td>
+                                            <td>denisestevens@example.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Dennis Salazar</td>
+                                            <td>34</td>
+                                            <td>891 Juniper Drive, Saginaw, MI, 48603</td>
+                                            <td>(933) 137 6201</td>
+                                            <td>dennissalazar@example.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jennifer Robinson</td>
+                                            <td>35</td>
+                                            <td>1545 Dorsey Ln NE, Leland, NC, 28451</td>
+                                            <td>(207) 808 8863</td>
+                                            <td>jenniferrobinson@example.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Joshua Guzman</td>
+                                            <td>34</td>
+                                            <td>4712 Spring Creek Dr, Bonita Springs, FL, 34134</td>
+                                            <td>(407) 554 4146</td>
+                                            <td>joshuaguzman@example.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Judy Clark</td>
+                                            <td>22</td>
+                                            <td>4093 Woodside Circle, Pensacola, FL, 32514</td>
+                                            <td>(359) 969 3594</td>
+                                            <td>judy.clark@example.com</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Julia Sims</td>
+                                            <td>27</td>
+                                            <td>517 Walker Dr, Houma, LA, 70364, United States</td>
+                                            <td>(680) 432 2662</td>
+                                            <td>juliasims@example.com</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card-box">
+                            <h3 class="card-title">Staff List</h3>
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Age</th>
+                                            <th>Designation</th>
+                                            <th>Address</th>
+                                            <th>Phone</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Bernardo Galaviz</td>
+                                            <td>24</td>
+                                            <td>Nurse</td>
+                                            <td>3687 Hudson Street, Hempstead, NY, 32181</td>
+                                            <td>(592) 733 3044</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Catherine Manseau</td>
+                                            <td>34</td>
+                                            <td>Accountant</td>
+                                            <td>952 Brookside Drive, Dora, AL, 35062</td>
+                                            <td>(942) 437 4061</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jeffery Lalor</td>
+                                            <td>63</td>
+                                            <td>Senior Nurse</td>
+                                            <td>4656 Park Boulevard, Panora, IA, 50216</td>
+                                            <td>(978) 881 1983</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jeffrey Warden</td>
+                                            <td>32</td>
+                                            <td>Receptionist</td>
+                                            <td>1073 Elk Avenue, Parma, MI, 49269</td>
+                                            <td>(886) 416 8101</td>
+                                        </tr>
+                                        <tr>
+                                            <td>John Doe</td>
+                                            <td>35</td>
+                                            <td>Nurse</td>
+                                            <td>1889 Renwick Drive, Philadelphia, PA, 19108</td>
+                                            <td>(447) 911 8650</td>
+                                        </tr>
+                                        <tr>
+                                            <td>John Smith</td>
+                                            <td>27</td>
+                                            <td>Lab Technician</td>
+                                            <td>4868 Woodlawn Drive, CANNELTON, IN, 47520</td>
+                                            <td>(341) 675 1083</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lesley Grauer</td>
+                                            <td>35</td>
+                                            <td>Nurse</td>
+                                            <td>1037 Glenview Drive, Jersey City, NJ, 52484</td>
+                                            <td>(110) 491 3927</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-overlay" data-reff="#sidebar"></div>
+    <script type="text/javascript" src="assets\js\modernizr.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets\js\bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets\js\jquery.slimscroll.js"></script>
+    <script type="text/javascript" src="assets\js\app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+/*!
+ * Adminux (http://maxartkiller.com)
+ * Copyright 2017 The Adminux Author: Maxartkiller
+ * purchase licence before use
+ * You can not resale or modify without prior licences.
+*/
+
+
+/*------------------------------------------------------------------ 
+[Table of contents]
+1.	General CSS
+2.	Responsive 
+------------------------------------------------------------------*/
+
+/*========================================
+1.	General CSS
+=========================================*/
+
+.light-bg{ background: #eaecf4}
+.row{position: relative}
+.section{ padding-top: 150px; padding-bottom: 150px;}
+.banner{ background: url(../img/banner.png) no-repeat bottom right #eaecf4; background-size: 90%; height: 900px;}
+.navbar-brand{ padding: 0}
+.navbar-brand img{ vertical-align: middle; margin-right: 10px; display: inline-block}
+.navbar-brand h4{display: inline-block; vertical-align: middle; margin: 0; line-height: 18px; color: #000000}
+.navbar-brand h4 small{font-size: 14px;}
+nav.navbar{ display: block; background: #ffffff; border-bottom: 1px solid #e3e3e3;}
+nav .navbar-collapse li.nav-item a.nav-link{ color: #666666; padding-left: 20px; padding-right: 20px; font-size: 16px; border-radius: 4px; -moz-border-radius: 4px; -ms-border-radius: 4px; -webkit-border-radius: 4px;}
+nav .navbar-collapse li.nav-item.active a{ color: #000000 }
+.responsive-img{ max-width: 100%;}
+.girl-laptop{ width: 58%; position: absolute; right: 0; bottom: 0}
+.lady-right{ width: 34%; position: absolute; left: 0; bottom: 0}
+.block{ background: #eaecf4; padding: 20px;  position: relative; height:  100%}
+.block figure{ margin: -20px -20px 20px -20px; }
+.block .hide{ display: none}
+.block i{ text-align: center; font-size: 26px; line-height: 50px; padding: 0; height: 50px; width: 50px;display: block; position: absolute; right: 0; bottom: 0;  background: #6c8bef; color: #ffffff;}
+.girl-laptop{ width: 58%; position: absolute; right: 0; bottom: 0}
+.block:hover { background: #6c8bef; color:#ffffff; box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); -moz-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); -ms-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3); -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);}
+.block:hover .hide{ display: block}
+.block:hover figure{ display: none}
+.block:hover i{ color:#222222; background: #FFFFFF}
+.block:hover a{ color:#ffffff;}
+.flexslider{ margin: 0; border: 0; overflow: hidden}
+.flex-direction-nav a {  font: normal normal normal 14px/1 FontAwesome;}
+.flex-direction-nav a:before { font-size: 46px; font-family: FontAwesome; color: #ffffff; display: inline-block; content: "\f104"; display: block;}
+.flex-direction-nav a.flex-next:before {content: "\f105";}
+.block.bordered{border:1px solid rgba(108, 139, 239, 0.5); background: #ffffff}
+.block.bordered:hover{ background: #6c8bef}
+.block.bordered:hover *{ color:#ffffff;}
+.block.bordered:hover .btn{ color:#6c8bef;background: #ffffff}
+.subscribe{ max-width: 400px; margin: 50px auto;}
+.subscribe input[type="text"]{ background: rgba(255, 255, 255, 0.5) ; color: #ffffff; line-height: 50px; height: 50px; padding: 0 15px;}
+.subscribe .btn{ color: #222222; background: #ffffff; text-transform: uppercase}
+.footer{display: flex}
+.footer-links { margin: 50px auto;}
+.footer-links a { color:#bfc8ea}
+.footer-links a:hover { color:#859bef}
+.dark_bg{background: #252d47; color: #ffffff;}
+.copyright{ background: rgba(0, 0, 0, 0.6);  line-height: 50px; vertical-align: middle; margin: 0}
+.navbar-toggler{background: #bcc4e6; margin-right: 10px; height: 40px; padding: 0; width: 40px; text-align: center; vertical-align: middle; color: #ffffff}
+nav .navbar-collapse li.nav-item a:hover{  background: #eaecf4}
+.contact-form{ max-width: 440px; margin: 0 auto; padding: 20px; box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15); -webkit-box-shadow: 0px 3px 15px 0 rgba(0, 0, 0, 0.15); -ms-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.15); border-radius: 10px; -ms-border-radius: 10px; -webkit-border-radius: 10px; -moz-border-radius: 10px; }
+
+/*========================================
+2.	Responsive
+=========================================*/
+
+@media screen and ( max-width:1019px) {
+    .navbar-collapse{background: #000000}
+    .banner{ height: 550px;}
+    h3{ 0.9rem}
+    .display-1{ font-size: 3rem;}
+    .display-4{ font-size: 1.25rem}
+    .display-3 { font-size: 2.25rem;}    
+    .lead {font-size: 1rem;}
+    .section {padding-top: 80px;  padding-bottom: 80px;}
+    nav.navbar{ display: block; padding: }
+    .navbar-collapse{ position: fixed; top: 80px; background: rgba(0, 0, 0, 0.6); left: 0; padding: 20px;}
+    .copyright{ line-height: 30px; text-align: center !important; padding: 10px 15px;}
+}
+@media screen and ( max-width:767px) {
+    .lady-right{ display: none}
+    .display-1{font-size: 4rem} 
+     .display-2{font-size: 3rem} 
+     .display-3{font-size: 2rem} 
+}
+@media screen and ( max-width:556px) {
+    .navbar-brand h4{ display: none}
+}

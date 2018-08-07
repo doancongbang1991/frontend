@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href="favicon.ico">
+<title>Maxmini - by Maxartkiller</title> 
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+    body{ background: url("images/bg.jpeg") repeat top left fixed; background-size:100% 100%; padding: 0; margin: 0}
+    .wrapper  { width: 1000px; margin: 0 auto; top: 0px; padding: 0;  clear: both; padding-bottom: 10px;} 
+    .iframes{  width: 320px; height: 568px; position: absolute; top: 169px; left: 42px; border: none;}
+    .left{ width:570px; float: left; }
+    .right{ width: 430px;; float: left; position: relative}
+    .phone{ width: auto; margin-top: 30px; float: left}
+    
+    ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+    }
+
+        /* Track */
+    ::-webkit-scrollbar-track {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: rgba(255,0,0,0.4); 
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background:  rgba(234, 65, 91, 0.83); 
+    }
+    ::-webkit-scrollbar-thumb:window-inactive {
+        background: rgba(0,0,0,0.8); 
+    }
+</style> 
+</head>
+ 
+<body>
+<div class="wrapper ">
+    <div class="left">
+        <img src="images\logo.png" alt="">
+        <img src="images\text.png" alt="">
+        <img src="images\image.png" alt="">
+    </div>
+    <div class="right">
+        <img src="images\phone.png" alt="" class="phone">
+         <iframe src="..\maxmaterial\index.html" class="iframes" height="568" width="320">
+
+    </iframe></div>
+</div>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script>
+      $(document).bind("contextmenu",function(e) {
+ e.preventDefault();
+});
+      document.onkeypress = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+           //alert('No F-12');
+            return false;
+        }
+    }
+    document.onmousedown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            //alert('No F-keys');
+            return false;
+        }
+    }
+document.onkeydown = function (event) {
+        event = (event || window.event);
+        if (event.keyCode == 123) {
+            //alert('No F-keys');
+            return false;
+        }
+    }
+    </script>
+    
+</body>
+</html>

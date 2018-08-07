@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<title>RUPAYAN- HTML Mobile Template</title>
+<!-- favicon
+============================================ -->		
+<link rel="shortcut icon" type="image/x-icon" href="img/fav.png">
+<!-- font Raleway link -->  
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+
+<!-- all css here -->
+<!-- Path to Framework7 Library CSS-->
+<link rel="stylesheet" href="css/framework7.ios.min.css">
+<link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+<link rel="stylesheet" href="css/swipebox.css">		        
+<!-- font-awesome.min CSS -->      
+<link rel="stylesheet" href="css/font-awesome.min.css">    
+<!-- font-awesome.min CSS -->      
+<link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+<link rel="stylesheet" href="css/helper.css">
+<!-- style CSS -->          
+<link rel="stylesheet" href="style.css">
+<!-- style CSS -->          
+<link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-reveal menubg">
+		<div class="line"></div>
+		<div class="logo-box"><img src="img/logo2.png" alt="" /></div>
+		<div class="mainmenu">
+			<div class="social-icone">
+				<ul>
+					<li><a class="item-link close-panel item-content external" href="tel:+88-01627-600206"> <i class="pe-7s-call"></i></a></li>
+					<li><a href="contact.html" class="close-panel"> <i class="pe-7s-mail-open-file"></i></a></li>
+					<li><a href="#"> <i class="pe-7s-global"></i></a></li>
+				</ul>
+			</div>
+			<div class="menu">
+				<ul>
+					<li>
+						<a href="index.html" class="close-panel"><i class="pe-7s-home pe-fw"></i> HOME</a>
+					</li>
+					<li>
+						<a href="about.html" class="close-panel"><i class="pe-7s-user pe-fw"></i> About Us</a>
+					</li>	
+					<li>
+						<a href="our-team.html" class="close-panel"><i class="pe-7s-users pe-fw"></i> Our Team</a>
+					</li>					
+					<li>
+						<a href="#" class="click-pages-menu"><i class="pe-7s-copy-file pe-fw"></i> Pages<span class="badge">7</span><i class="pe-7s-angle-down"></i></a>
+						<ul class="pages-menu-show">
+							<li><a href="#" class="open-login-screen close-panel"><i class="pe-7s-back-2 pe-fw"></i>login</a></li>
+							<li><a data-popup=".popup-register" class="open-popup close-panel" href="#"><i class="pe-7s-next-2 pe-fw"></i>Sign Up</a></li>
+							<li><a href="#" data-popup=".popup-forgetpass" class="open-popup close-panel"><i class="pe-7s-unlock pe-fw"></i>Forget Password</a></li>
+							<li><a href="portfolio-details.html" class="close-panel"><i class="pe-7s-chat pe-fw"></i>Portfolio Details</a></li>
+							<li><a href="coming-soon.html" class="close-panel"><i class="pe-7s-speaker pe-fw"></i>Coming Soon</a></li>
+							<li><a href="404.html" class="close-panel"><i class="pe-7s-display1 pe-fw"></i>404 page</a></li>
+							<li><a href="live-chat.html" class="close-panel"><i class="pe-7s-chat pe-fw"></i>Chat</a></li>
+						</ul>
+					</li>
+					<li><a href="gallery.html" class="close-panel"><i class="pe-7s-photo pe-fw"></i> Galleries</a></li>
+					<li><a href="blog.html" class="close-panel"><i class="pe-7s-note pe-fw"></i> Blog</a></li>
+					<li><a href="contact.html" class="close-panel"><i class="pe-7s-mail pe-fw"></i> Contact</a></li>
+				</ul>
+			</div>
+			<div class="social-icone">
+				<ul>
+					<li><a href="https://www.facebook.com" target="_blank" class="external"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://www.google.com.bd" target="_blank" class="external"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="https://www.linkedin.com" target="_blank" class="external"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- Menu end -->
+    </div>
+	<!-- login screen  start-->
+	<div class="login-screen">
+    	<div class="view">
+      <div class="page">
+        <div class="page-content login-screen-content registerbody">
+			<div class="register-content">
+				<a href="#" class="close-login-screen floatright"><i class="fa fa-times"></i></a>
+				<div class="login-logo"><img src="img/logo2.png" alt=""></div>
+				<form action="#">
+					<div class="inputbox">
+						<span>Username:</span><br>
+						<input type="text" name="name" id="name" placeholder="Username">
+					</div>
+					<div class="inputbox">
+						<span>Password:</span><br>
+						<input type="password" name="password" placeholder="***********">
+					</div>
+					<div class="inputbox">
+						<a data-popup=".popup-forgetpass" class="open-popup"   href="#">Forget Password?</a>
+					</div>
+					<div class="inputbox">
+						<button class="button button-big">Login</button>
+					</div>						
+				</form>	
+				<p>Don’t have an account?  <a data-popup=".popup-register" class="open-popup" href="#">Sign Up</a></p>
+			</div>
+        </div>
+      </div>
+    	</div>
+ 	</div>
+  	<!-- login screen  start-->
+	<!-- forget password  start-->
+	<div class="popup popup-forgetpass">
+		<div class="registerbody">
+			<a href="#" class="close-popup closebutton"><i class="fa fa-times"></i></a>
+			<div class="register-content">
+				<div class="login-logo"><img src="img/logo2.png" alt=""></div>
+				<form action="#">
+					<div class="inputbox">
+						<span>Email:</span><br>
+						<input type="email" name="password" placeholder="email@gmail.com">
+					</div>
+					<div class="inputbox">
+						<button class="button button-big">Remember me</button>
+					</div>						
+				</form>	
+				<p>Don’t have an account?<a data-popup=".popup-register" class="open-popup" href="#"> Sign Up</a></p>
+			</div>
+		 </div>
+	</div>
+	  <!-- forget password  end-->
+	  <!-- resister popup start-->
+	<div class="popup popup-register">
+		<div class="registerbody">
+				<a href="#" class="close-popup closebutton"><i class="fa fa-times"></i></a>
+		     <div class="register-content">
+				<div class="login-logo"><img src="img/logo2.png" alt=""></div>
+					<form action="#">
+					<div class="inputbox">
+						<span>Full Name:</span><br>
+						<input type="text" name="fulname" placeholder="Full Name">
+					</div>
+					<div class="inputbox">
+						<span>Username:</span><br>
+						<input type="text" name="username2" placeholder="Username">
+					</div>
+					<div class="inputbox">
+						<span>Email:</span><br>
+						<input type="email" name="email" placeholder="email@gmail.com">
+					</div>
+					<div class="inputbox">
+						<span>Password:</span><br>
+						<input type="password" name="password2" placeholder="***********">
+					</div>
+					<div class="inputbox">
+						<button class="button button-big">Sign Up</button>
+					</div>					
+				</form>
+			</div>
+		 </div>
+	</div>
+  	<!-- resister popup start-->	
+    <!-- Views-->
+    <div class="views">
+      <!-- Your main view, should have "view-main" class-->
+		<div class="view view-main">
+			<!-- Top Navbar-->
+			<div class="navbar">
+				<div class="navbar-inner">
+					<div class="left">
+				  		<a href="#" class="link icon-only open-panel"><img src="img/menu.png" alt=""></a>
+					</div>
+					<!-- We have home navbar without left link-->
+					<div class="center sliding"><img src="img/logo.png" alt=""></div>
+					<div class="right">
+				 		<a href="#" data-panel="right" class="link icon-only open-login-screen"><img src="img/menu2.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+            <!-- Pages, because we need fixed-through navbar and toolbar, it has additional appropriate classes-->
+			<div class="pages navbar-through toolbar-through">
+			  <!-- Page, data-page contains page name-->
+				<div data-page="index" class="page">
+				<!-- Scrollable page content-->
+					<div class="page-content">
+	 					<!-- slider area start-->
+	 					<div class="slider-area">
+							<div class="ks-slider-custom">
+								<div data-pagination=".swiper-pagination" data-space-between="0" data-next-button=".swiper-button-next" data-prev-button=".swiper-button-prev" data-pagination-clickable="true" class="swiper-container swiper-init">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+							        		<img src="img/home/1.jpg" alt="">
+							        		<div class="slide-text">
+												<h2><span>The Awesome</span><br>Website !</h2>
+											</div>		        	
+							        	</div> 
+										<div class="swiper-slide">
+							        		<img src="img/home/2.jpg" alt="">
+							        		<div class="slide-text">
+												<h2><span>A BEAUTIFUL APP</span><br>FOR YOUR IPAD</h2>
+											</div>		        	
+							        	</div> 
+										<div class="swiper-slide">
+							        		<img src="img/home/3.jpg" alt="">
+							        		<div class="slide-text">
+												<h2><span>The Awesome</span><br>Website</h2>
+											</div>		        	
+							        	</div> 
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- slider area end-->	
+						<!-- about us area start-->
+						<div class="standard-row">
+							<div class="section-title">
+								<h3>About Us</h3>
+							</div>
+							<div class="stander-content">
+								<div class="about-content">
+									<p class="alignjust">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, beatae, sunt. Cupiditate libero molestias deleniti quis corporis. Nemo, sit nam.</p>
+									<a href="about.html" class="floatright">Read More</a>
+								</div>
+							</div>
+						</div>	
+						<!-- about us area end-->
+						<!-- services area start-->
+						<div class="standard-row2">
+							<div class="section-title">
+								<h3>Our Services</h3>
+							</div>
+							<div class="stander-content">
+								<div class="services-content">
+									<div class="row">
+										<div class="col-100 tablet-50">
+											<div class="service-all">
+												<div class="service-icon">
+													<a href="#">
+														<div class="icon-box">
+															<i class="pe-7s-monitor"></i>
+														</div>
+													</a>
+												</div>
+												<div class="service-text">
+													<h6>WEB  DESIGN</h6>
+													<p>Facilisis nulla de quam sed ipsum sed urab itur nulla odio de bibendum sit amd facs ed lobortis ld justo donec </p>
+												</div>	
+											</div>
+										</div>
+										<div class="col-100 tablet-50">
+											<div class="service-all">
+												<div class="service-icon">
+													<a href="#">
+														<div class="icon-box">
+															<i class="pe-7s-server"></i>
+														</div>
+													</a>
+												</div>
+												<div class="service-text">
+													<h6>PRINT  DESIGN</h6>
+													<p>Facilisis nulla de quam sed ipsum sed urab itur nulla odio de bibendum sit amd facs ed lobortis ld justo donec </p>	
+												</div>
+											</div>
+										</div>
+										<div class="col-100 tablet-50">
+											<div class="service-all">
+												<div class="service-icon">
+													<a href="#">
+														<div class="icon-box">
+															<i class="pe-7s-anchor"></i>
+														</div>
+													</a>
+												</div>
+												<div class="service-text">
+													<h6>BRANDING</h6>
+													<p>Facilisis nulla de quam sed ipsum sed urab itur nulla odio de bibendum sit amd facs ed lobortis ld justo donec </p>	
+												</div>
+											</div>
+										</div>
+										<div class="col-100 tablet-50">
+											<div class="service-all">
+												<div class="service-icon">
+													<a href="#">
+														<div class="icon-box">
+															<i class="pe-7s-compass"></i>
+														</div>
+													</a>
+												</div>
+												<div class="service-text">
+													<h6>LOGO  DESIGN</h6>
+													<p>Facilisis nulla de quam sed ipsum sed urab itur nulla odio de bibendum sit amd facs ed lobortis ld justo donec </p>	
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<!-- services us area end-->	
+						<!-- our team area start-->
+						<div class="standard-row2">
+							<div class="section-title">
+								<h3>Our Team</h3>
+							</div>
+							<div class="stander-content">
+								<div class="team-content">
+									<div class="row">
+										<!-- single team start-->				
+										<div class="col-100 tablet-50">
+											<div class="single-team">
+												<img src="img/team/1.jpg" alt="" />
+												<div class="team-text">
+													<h3>Nikan Shila</h3>
+													<h5>Project Manager</h5>
+													<a href="#" class="show-team"><i class="pe-7s-plus"></i></a>
+													<div class="blok-text">
+														<div class="social-icon1">
+										                    <ul>
+										                      <li><a href="https://www.facebook.com" target="_blank" class="external"><i class="fa fa-facebook"></i></a></li>
+										                      <li><a href="https://www.twitter.com" target="_blank" class="external"><i class="fa fa-twitter"></i></a></li>
+										                      <li><a href="https://www.linkedin.com" target="_blank" class="external"><i class="fa fa-linkedin"></i></a></li>   
+										                    </ul>
+										                  </div>
+										                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nisi sint, porro, magni cumque saepe.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- single team end-->
+										<!-- single team start-->			
+										<div class="col-100 tablet-50 ">
+											<div class="single-team">
+												<img src="img/team/2.jpg" alt="" />
+												<div class="team-text">
+													<h3>Jils Tanku</h3>
+													<h5>Marketing Officer</h5>
+													<a href="#" class="show-team2"><i class="pe-7s-plus"></i></a>
+													<div class="blok-text2">
+														<div class="social-icon1">
+										                    <ul>
+										                      <li><a href="https://www.facebook.com" target="_blank" class="external"><i class="fa fa-facebook"></i></a></li>
+										                      <li><a href="https://www.twitter.com" target="_blank" class="external"><i class="fa fa-twitter"></i></a></li>
+										                      <li><a href="https://www.linkedin.com" target="_blank" class="external"><i class="fa fa-linkedin"></i></a></li>   
+										                    </ul>
+										                  </div>
+										                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nisi sint, porro, magni cumque saepe.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- single team end-->
+										<!-- single team start-->	
+										<div class="col-100 tablet-50">
+											<div class="single-team">
+												<img src="img/team/3.jpg" alt="" />
+												<div class="team-text">
+													<h3>Lernai Jess</h3>
+													<h5>Team Leader</h5>
+													<a href="#" class="show-team3"><i class="pe-7s-plus"></i></a>
+													<div class="blok-text3">
+														<div class="social-icon1">
+										                    <ul>
+										                      <li><a href="https://www.facebook.com" target="_blank" class="external"><i class="fa fa-facebook"></i></a></li>
+										                      <li><a href="https://www.twitter.com" target="_blank" class="external"><i class="fa fa-twitter"></i></a></li>
+										                      <li><a href="https://www.linkedin.com" target="_blank" class="external"><i class="fa fa-linkedin"></i></a></li>   
+										                    </ul>
+										                  </div>
+										                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nisi sint, porro, magni cumque saepe.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- single team end-->
+										<!-- single team start-->		
+										<div class="col-100 tablet-50">
+											<div class="single-team">
+												<img src="img/team/4.jpg" alt="" />
+												<div class="team-text">
+													<h3>Linie Loys</h3>
+													<h5>CIO</h5>
+													<a href="#" class="show-team4"><i class="pe-7s-plus"></i></a>
+													<div class="blok-text4">
+														<div class="social-icon1">
+										                    <ul>
+										                      <li><a href="https://www.facebook.com" target="_blank" class="external"><i class="fa fa-facebook"></i></a></li>
+										                      <li><a href="https://www.twitter.com" target="_blank" class="external"><i class="fa fa-twitter"></i></a></li>
+										                      <li><a href="https://www.linkedin.com" target="_blank" class="external"><i class="fa fa-linkedin"></i></a></li>   
+										                    </ul>
+										                  </div>
+										                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam nisi sint, porro, magni cumque saepe.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- single team end-->
+									</div>
+								</div>
+							</div>
+						</div>	
+						<!-- our team area end-->						
+						<!-- Portfolio area start-->
+						<div class="standard-row2">
+							<div class="section-title">
+								<h3>Portfolio</h3>
+							</div>
+							<div class="port-content">
+							<div class="awesome-portfolio-menu">
+								<ul>
+									<li class="filter" data-filter="all" >All</li>
+									<li class="filter" data-filter=".design">Web</li>
+									<li class="filter" data-filter=".flat">Print</li>
+									<li class="filter" data-filter=".illustration">Branding</li>
+									<li class="filter" data-filter=".sedrisus">Logo</li>
+								</ul>				
+							</div>
+							<div class="awesome-portfolio-content list">
+								<!-- single-awesome-portfolio start -->
+								<div class="single-awesome-portfolio mix all flat illustration">
+									<div class="content-box">
+										<div class="img-box">
+											<img src="img/portfolio/1.jpg" alt="" />
+											<div class="social-icon">
+												<a href="portfolio-details.html"><i class="fa fa-link"></i></a>
+												<a href="img/portfolio/1.jpg" class="swipebox" ><i class="fa fa-search-plus"></i></a>
+											</div>
+										</div>						
+									</div>
+								</div>
+								<!-- single-awesome-portfolio end -->
+								<!-- single-awesome-portfolio start -->
+								<div class="single-awesome-portfolio mix all flat">
+									<div class="content-box">
+										<div class="img-box">
+											<img src="img/portfolio/2.jpg" alt="" />
+											<div class="social-icon">
+												<a href="portfolio-details.html"><i class="fa fa-link"></i></a>
+												<a href="img/portfolio/2.jpg" class="swipebox" ><i class="fa fa-search-plus"></i></a>
+											</div>
+										</div>						
+									</div>
+								</div>
+								<!-- single-awesome-portfolio end -->
+								<!-- single-awesome-portfolio start -->
+								<div class="single-awesome-portfolio mix all flat">
+									<div class="content-box">
+										<div class="img-box">
+											<img src="img/portfolio/3.jpg" alt="" />
+											<div class="social-icon">
+												<a href="portfolio-details.html"><i class="fa fa-link"></i></a>
+												<a href="img/portfolio/3.jpg" class="swipebox" ><i class="fa fa-search-plus"></i></a>
+											</div>
+										</div>						
+									</div>
+								</div>
+								<!-- single-awesome-portfolio end -->
+								<!-- single-awesome-portfolio start -->
+								<div class="single-awesome-portfolio mix all sedrisus branding">
+									<div class="content-box">
+										<div class="img-box">
+											<img src="img/portfolio/4.jpg" alt="" />
+											<div class="social-icon">
+												<a href="portfolio-details.html"><i class="fa fa-link"></i></a>
+												<a href="img/portfolio/4.jpg" class="swipebox" ><i class="fa fa-search-plus"></i></a>
+											</div>
+										</div>						
+									</div>
+								</div>
+								<!-- single-awesome-portfolio end -->
+								<!-- single-awesome-portfolio start -->
+								<div class="single-awesome-portfolio mix all design flat illustration">
+									<div class="content-box">
+										<div class="img-box">
+											<img src="img/portfolio/5.jpg" alt="" />
+											<div class="social-icon">
+												<a href="portfolio-details.html"><i class="fa fa-link"></i></a>
+												<a href="img/portfolio/5.jpg" class="swipebox" ><i class="fa fa-search-plus"></i></a>
+											</div>
+										</div>						
+									</div>
+								</div>
+								<!-- single-awesome-portfolio end -->
+								<!-- single-awesome-portfolio start -->
+								<div class="single-awesome-portfolio mix all flat sedrisus illustration">
+									<div class="content-box">
+										<div class="img-box">
+											<img src="img/portfolio/6.jpg" alt="" />
+											<div class="social-icon">
+												<a href="portfolio-details.html"><i class="fa fa-link"></i></a>
+												<a href="img/portfolio/6.jpg" class="swipebox" ><i class="fa fa-search-plus"></i></a>
+											</div>
+										</div>						
+									</div>
+								</div>
+								<!-- single-awesome-portfolio end -->
+								<!-- single-awesome-portfolio start -->
+								<div class="single-awesome-portfolio mix all design illustration">
+									<div class="content-box">
+										<div class="img-box">
+											<img src="img/portfolio/7.jpg" alt="" />
+											<div class="social-icon">
+												<a href="portfolio-details.html"><i class="fa fa-link"></i></a>
+												<a href="img/portfolio/7.jpg" class="swipebox" ><i class="fa fa-search-plus"></i></a>
+											</div>
+										</div>						
+									</div>
+								</div>
+								<!-- single-awesome-portfolio end -->
+								<!-- single-awesome-portfolio start -->
+								<div class="single-awesome-portfolio mix all flat sedrisus illustration">
+									<div class="content-box">
+										<div class="img-box">
+											<img src="img/portfolio/8.jpg" alt="" />
+											<div class="social-icon">
+												<a href="portfolio-details.html"><i class="fa fa-link"></i></a>
+												<a href="img/portfolio/8.jpg" class="swipebox" ><i class="fa fa-search-plus"></i></a>
+											</div>
+										</div>						
+									</div>
+								</div>
+								<!-- single-awesome-portfolio end -->
+								<!-- single-awesome-portfolio start -->
+								<div class="single-awesome-portfolio mix all flat illustration">
+									<div class="content-box">
+										<div class="img-box">
+											<img src="img/portfolio/9.jpg" alt="" />
+											<div class="social-icon">
+												<a href="portfolio-details.html"><i class="fa fa-link"></i></a>
+												 <a href="img/portfolio/9.jpg" class="swipebox" ><i class="fa fa-search-plus"></i></a>
+											</div>
+										</div>						
+									</div>
+								</div>
+								<!-- single-awesome-portfolio end -->
+							</div>
+							</div>
+						</div>												
+						<!-- Portfolio area end-->
+						<!-- blog area start-->
+						<div class="standard-row2">
+							<div class="section-title">
+								<h3>Resent Blog Post</h3>
+							</div>
+							<div class="stander-content">
+								<div class="blog-content">
+									<div class="row">
+										<!-- single blog start-->
+										<div class="col-100 tablet-50">
+											<div class="single-blog">
+												<div class="bolg-img">
+													<img src="img/blog/1.jpg" alt="" />
+												</div>
+												<div class="blog-footer">
+													<ul>
+														<li><i class="fa fa-user"></i> <a href="#"> By John Doe</a></li>
+														<li><i class="fa fa-calendar"></i><a href="#"> 2016 12 Jan</a></li>
+														<li><i class="fa fa-clock-o"></i> <a href="#"> 20:30 GMT</a></li>
+													</ul>
+												</div>
+												<div class="bolg-content">							
+													<h4><a href="blog-details.html">ARTICLE HEADING</a> </h4>
+													<p>Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy hibh-ibh euismod tincidunt ut laoreet dolore magna aliquam erat...</p>
+												</div>
+												<h5>
+													<a href="blog-details.html">CONTINUE<i class="fa fa-caret-right"></i></a>
+												</h5>
+											</div>
+										</div>	
+										<!-- single blog start-->
+										<!-- single blog start-->
+										<div class="col-100 tablet-50">
+											<div class="single-blog">
+												<div class="bolg-img">
+													<img src="img/blog/2.jpg" alt="" />
+												</div>
+												<div class="blog-footer">
+													<ul>
+														<li><i class="fa fa-user"></i> <a href="#"> By John Doe</a></li>
+														<li><i class="fa fa-calendar"></i><a href="#"> 2016 12 Jan</a></li>
+														<li><i class="fa fa-clock-o"></i> <a href="#"> 20:30 GMT</a></li>
+													</ul>
+												</div>
+												<div class="bolg-content">							
+													<h4><a href="blog-details.html">ARTICLE HEADING</a> </h4>
+													<p>Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy hibh-ibh euismod tincidunt ut laoreet dolore magna aliquam erat...</p>
+												</div>
+												<h5>
+													<a href="blog-details.html">CONTINUE<i class="fa fa-caret-right"></i></a>
+												</h5>
+											</div>
+										</div>	
+										<!-- single blog start-->
+										<!-- single blog start-->
+										<div class="col-100 tablet-50">
+											<div class="single-blog">
+												<div class="bolg-img">
+													<img src="img/blog/3.jpg" alt="" />
+												</div>
+												<div class="blog-footer">
+													<ul>
+														<li><i class="fa fa-user"></i> <a href="#"> By John Doe</a></li>
+														<li><i class="fa fa-calendar"></i><a href="#"> 2016 12 Jan</a></li>
+														<li><i class="fa fa-clock-o"></i> <a href="#"> 20:30 GMT</a></li>
+													</ul>
+												</div>
+												<div class="bolg-content">							
+													<h4><a href="blog-details.html">ARTICLE HEADING</a> </h4>
+													<p>Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy hibh-ibh euismod tincidunt ut laoreet dolore magna aliquam erat...</p>
+												</div>
+												<h5>
+													<a href="blog-details.html">CONTINUE<i class="fa fa-caret-right"></i></a>
+												</h5>
+											</div>
+										</div>	
+										<!-- single blog start-->
+										<!-- single blog start-->
+										<div class="col-100 tablet-50">
+											<div class="single-blog">
+												<div class="bolg-img">
+													<img src="img/blog/4.jpg" alt="" />
+												</div>
+												<div class="blog-footer">
+													<ul>
+														<li><i class="fa fa-user"></i> <a href="#"> By John Doe</a></li>
+														<li><i class="fa fa-calendar"></i><a href="#"> 2016 12 Jan</a></li>
+														<li><i class="fa fa-clock-o"></i> <a href="#"> 20:30 GMT</a></li>
+													</ul>
+												</div>
+												<div class="bolg-content">							
+													<h4><a href="blog-details.html">ARTICLE HEADING</a> </h4>
+													<p>Lorem ipsum dolor sit amet, consetetuer adipiscing elit, sed diam nonummy hibh-ibh euismod tincidunt ut laoreet dolore magna aliquam erat...</p>
+												</div>
+												<h5>
+													<a href="blog-details.html">CONTINUE<i class="fa fa-caret-right"></i></a>
+												</h5>
+											</div>
+										</div>	
+										<!-- single blog start-->	
+									</div>									
+								</div>
+							</div>
+						</div>	
+						<!-- blog area end-->	
+						<!-- Testimonial start -->
+						<div class="standard-row  testimonial">
+							<div class="section-title">
+								<h3>Our Client Say</h3>
+							</div>
+							<div class="testmonialdiv">
+								<div class="swiper-container2">
+								    <!-- Slides wrapper -->
+								    <div class="swiper-wrapper">
+								        <!-- Slides -->
+								        <div class="swiper-slide">
+								        	<div class="item">
+												<i class="fa fa-quote-left"></i>
+												<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis.</p>
+											</div>	        	
+								        </div>
+								        <div class="swiper-slide">
+								        	<div class="item">
+												<i class="fa fa-quote-left"></i>
+												<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis.</p>
+											</div>	        	
+								        </div>
+								        <div class="swiper-slide">
+								        	<div class="item">
+												<i class="fa fa-quote-left"></i>
+												<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus ligula semper metus pellentesque mattis.</p>
+											</div>	        	
+								        </div>
+								    </div>
+								</div>
+							</div>	
+						</div>
+						<!-- Testimonial end -->
+						<!-- Contact  start -->
+				    	<div class="standard-row2">
+				    		<div class="section-title">
+								<h3>Contact Us</h3>
+							</div>
+					    	<div class="google-map">
+					    		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1626.5848270397146!2d90.4310321053858!3d23.763081953556036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8783ab9882f%3A0x50f429f46d937f3c!2sRampura%2C+Dhaka+1219%2C+Bangladesh!5e0!3m2!1sen!2sbd!4v1454404219496"></iframe>
+				        	</div>
+					        <div class="stander-row">
+								<div class="contact-heading">
+									<h3>RUPAYAN</h3>
+									<p>132-Bonosri, Rampura,<br> Bangladesh</p>
+									<p>Email : mail@rupayan.com <br>
+									Tel :+88 01627 600206</p>
+								</div>					       
+						       <div class="contact-form">
+									<form action="mail.php" method="POST">
+										<input type="text" name="name" placeholder="Name" required />
+										<input type="email" name="email" placeholder="mail@rupayan.com" required />
+										<textarea name="message" id="message" cols="30" rows="4" placeholder="Your Message Here"></textarea>
+										<div class="contact-button">
+											  <button type="submit" class="button button-big">SEND</button>
+										</div>
+									</form>
+								</div>
+							</div>		
+				       	</div>
+						<div class="footer-row">
+							<p>2016 <sup>&reg;</sup>  All Rights Reserved - RUPAYAN APP.</p>
+						</div>				       							
+					</div>
+				</div>
+        	</div>
+    	</div>
+    </div>   	
+<!-- Js -->
+<!-- jquery-1.11.3.min js -->         
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Path to Framework7 Library JS --> 
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<!--jquery.swipebox js --> 
+<script type="text/javascript" src="js/jquery.swipebox.js"></script>
+<!--jquery.mixitup js -->  
+<script src="js/jquery.mixitup.min.js"></script>
+<!-- Path to your app js --> 
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>

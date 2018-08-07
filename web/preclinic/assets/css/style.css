@@ -1,0 +1,192 @@
+/*
+Author       : Dreamguys
+Template Name: Preclinic - Bootstrap Admin Template
+Version      : 1.0
+*/
+
+/* Font */
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-regular.woff2') format('woff2'),
+         url('../fonts/lato-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/lato-bold.woff2') format('woff2'),
+         url('../fonts/lato-bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Fredokaone';
+    src: url('../fonts/fredokaone-regular.woff2') format('woff2'),
+         url('../fonts/fredokaone-regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* General Css*/
+
+body {font-family: 'Lato', sans-serif;font-size: 14px;font-weight: 300;color: #575757;overflow-x: hidden;background-color: #fff;}
+html,body { height: 100% }
+h1,h2,h3,h4,h5,h6 {color: #333;}
+a{transition: all 300ms linear; -moz-transition: all 300ms linear; -o-transition: all 300ms linear; -ms-transition: all 300ms linear; -webkit-transition: all 300ms linear; color:#282628;}
+a:hover, a:focus{color:#00bfaf;text-decoration:none;}
+.btn-primary{background-color:#478edc;border-color:#478edc;}
+.btn-primary:hover, .btn-primary:focus{background-color:#3c79bb;border-color:#3c79bb;}
+
+/* Header */
+
+.header {height: 72px;position: relative;z-index: 99;}
+.header .navbar-default{border:none;margin-bottom:0;border-radius:0;padding:.75em 0;}
+.header .nav > li{text-align:center;float:left;}
+.header .nav > li > a > i{padding-right:.2em;}
+.header .navbar-default .navbar-nav > li > a,
+.header .navbar-default .navbar-nav > li > a:hover,
+.header .navbar-default .navbar-nav > li > a:focus{color:#fff;font-weight:600;}
+.header .navbar-default .navbar-nav > li > a{color:#575757;}
+.header .navbar-default .navbar-nav > li > a.btn {border-radius: 500px;color: #fff;min-width: 130px;}
+.header .navbar-default .navbar-nav > li > a:hover,
+.header .navbar-default .navbar-nav > li > a:focus{color:#478edc;}
+.header .navbar-default{position:fixed;width:100%;top:0;left:0;z-index:10;background-color:#fff;border-bottom:1px solid #e7e7e7;}
+.hero-banner img {box-shadow: 0 1px 12px 0 rgba(51, 51, 51, 0.15);}
+.m-b-0 {margin-bottom:0 !important;}
+
+/* Home Banner */
+
+.home-banner {background-color: #fafaf8;position: relative;padding: 50px 0;}
+.banner-text > h2 {color: #575757;font-family: fredokaone;font-size: 30px;margin-bottom: 20px;margin-top: 0;}
+.banner-text > img {margin-bottom: 50px;}
+.banner-text p {margin-bottom: 20px;}
+.section-title h2 {font-family: fredokaone;margin:0 0 30px;}
+.hashtag > a {color: #478edc;display: inline-block;margin-bottom: 5px;margin-right: 10px;}
+.hashtag > a:last-child {margin-right: 0;}
+.hashtag > a:hover {color: #333;}
+
+/* Demo Section */
+
+.demo-section {background-color: #fafaf8;border-top: 1px solid #e7e7e7;padding: 50px 0;}
+.demo-box {background-color: #fff;border: 1px solid #e7e7e7;border-radius: 4px;margin-bottom: 30px;margin-top: 30px;position: relative;text-align:center;}
+.demo-box img {border-radius: 4px 4px 0 0;}
+.demo-box .view-overlay {background-color: rgba(71, 142, 220, 0.1);opacity: 0;height: 100%;left: 0;position: absolute;text-align: center;top: 0;width: 100%;}
+.demo-box .view-overlay a {
+    border-radius: 500px;
+    font-family: fredokaone;
+    padding: 10px 20px;
+    position: relative;
+    text-transform: uppercase;
+    top: 0;
+    transition: all 0.5s ease 0s;
+	-moz-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	-ms-transition: all 0.5s ease 0s;
+	-webkit-transition: all 0.5s ease 0s;
+}
+.demo-box:hover .view-overlay {opacity: 1;}
+.demo-box:hover .view-overlay a {top: 45%;}
+.demo-title {font-family: fredokaone;margin: 30px 0;}
+
+/* Info Section */
+
+.info-section {background-color: #478edc;padding: 50px 0;}
+.info-section .section-title h2 {color:#fff;}
+.info-content p {color: #fff;font-size: 16px;margin-bottom: 40px;}
+
+/* Footer */
+
+.footer {border-top: 1px solid #e7e7e7;padding: 20px 0;}
+.footer p {margin-bottom:0;font-size: 16px;}
+.copyright p {margin-top: 13px;position: relative;}
+.powered-by {text-align: right;}
+.powered-by img {margin-left: 10px;}
+
+/* Card */
+
+.card {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	-webkit-transform-origin: center;
+	transform-origin: center;
+	-webkit-transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
+	transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
+	cursor: pointer;
+}
+.card:nth-child(1) {z-index: 10;top: 0px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(1);transform: scale(1);opacity: 1;}
+.card:nth-child(2) {z-index: 9;top: -35px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(0.9);transform: scale(0.9);opacity: 0.9;}
+.card:nth-child(3) {z-index: 8;top: -65px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(0.8);transform: scale(0.8);opacity: 0.8;}
+.card:nth-child(4) {z-index: 7;top: -95px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(0.7);transform: scale(0.7);opacity: 0.7;}
+.card:nth-child(5) {z-index: 6;top: -120px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(0.6);transform: scale(0.6);opacity: 0.6;}
+.card:nth-child(6) {z-index: 5;top: -75px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(0.5);transform: scale(0.5);opacity: 0.5;}
+.card:nth-child(7) {z-index: 4;top: -90px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(0.4);transform: scale(0.4);opacity: 0.4;}
+.card:nth-child(8) {z-index: 3;top: -105px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(0.3);transform: scale(0.3);opacity: 0.3;}
+.card:nth-child(9) {z-index: 2;top: -120px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(0.2);transform: scale(0.2);opacity: 0.2;}
+.card:nth-child(10) {z-index: 1;top: -135px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(0.1);transform: scale(0.1);opacity: 0.1;}
+.card:nth-child(11) {z-index: 0;top: -150px;-webkit-transform-origin: top;transform-origin: top;-webkit-transform: scale(0);transform: scale(0);opacity: 0;}
+.card:first-child:hover {box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);-webkit-transform: scale(1.05);transform: scale(1.05);}
+.card:last-child { opacity: 0; }
+.work-img {position: relative;top: 50px;height: 648px;}
+.banner-images {min-height:810px;}
+
+/* Responsive */
+
+@media only screen and (max-width: 1199px) {
+	.work-img {height: 534px;}
+	.card:nth-child(2) {top:-32px;}
+	.card:nth-child(3) {top:-60px;}
+	.card:nth-child(4) {top:-85px;}
+	.card:nth-child(5) {top:-106px;}
+	.banner-images {min-height: 697px;}
+}
+
+@media only screen and (max-width: 991px) {
+	.work-img {height: 409px;}
+	.card:nth-child(2) {top:-24px;}
+	.card:nth-child(3) {top:-46px;}
+	.card:nth-child(4) {top:-65px;}
+	.card:nth-child(5) {top:-81px;}
+	.banner-images {min-height: 572px;}
+}
+
+@media only screen and (max-width: 767px) {
+	.header .navbar-header {float: left;margin-left:0;margin-right: 0;}
+	.header .navbar-right {float: right;margin-left:0;margin-right: 0;}
+	.work-img {height: 324px;top: 40px;}
+	.card:nth-child(2) {top:-19px;}
+	.card:nth-child(3) {top:-36px;}
+	.card:nth-child(4) {top:-51px;}
+	.card:nth-child(5) {top:-64px;}
+	.banner-images {margin: 0 auto;min-height: 497px;width: 570px;}
+	.footer .copyright p {margin-bottom: 20px;margin-top: 0;text-align: center;}
+	.powered-by {text-align: center;}
+}
+@media only screen and (max-width: 599px) {
+	.work-img {height: 256px;top:40px;}
+	.card:nth-child(2) {top:-15px;}
+	.card:nth-child(3) {top:-28px;}
+	.card:nth-child(4) {top:-40px;}
+	.card:nth-child(5) {top:-50px;}
+	.banner-images {margin: 0 auto;min-height: 482px;width: 450px;}
+}
+
+@media only screen and (max-width: 479px) {
+	.work-img {height: 159px;top:30px;}
+	.card:nth-child(2) {top:-9px;}
+	.card:nth-child(3) {top:-17px;}
+	.card:nth-child(4) {top:-24px;}
+	.card:nth-child(5) {top:-30px;}
+	.banner-images {margin: 0 auto;min-height: 415px;width: 280px;}
+	.header .navbar-default .navbar-nav > li > a.btn {min-width: 100px;}
+	.footer p {font-size: 15px;margin-bottom: 0;}
+}
+
+.mobile .demo-box .view-overlay {position:relative;opacity: 1;background:none;margin-top:30px;}
+.mobile .demo-box:hover .view-overlay a {top:0;}

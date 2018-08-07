@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3a57c4">
+    <title>DHR - HTML Mobile Template</title>
+    <link rel="stylesheet" href="assets/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="statusbar"></div>
+
+        <div class="panel panel-left panel-reveal">
+            <div class="block">
+                <div class="side-menu" id="sidebar-menu">
+                    <ul>
+                        <li>
+                            <a class="panel-close" href="/">
+								Dashboard
+							</a>
+                        </li>
+						<li class="submenu">
+                            <a href="#"><span>Employees</span> <span class="menu-arrow"></span></a>
+                            <ul style="display: none;">
+                                <li><a class="panel-close" href="/employees/"> All Employees</a></li>
+                                <li><a class="panel-close" href="/holidays/"> Holidays </a></li>
+                                <li><a class="panel-close" href="/leaves/"> Leave Requests </a></li>
+                                <li><a class="panel-close" href="/departments/"> Departments </a></li>
+                                <li><a class="panel-close" href="/designations/"> Designations </a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="panel-close" href="/clients/">
+								Clients
+                            </a>
+                        </li>
+                        <li>
+                            <a class="panel-close" href="/projects/">
+								Projects
+                            </a>
+                        </li>
+                        <li>
+                            <a class="panel-close" href="/tasks/">
+								Tasks
+                            </a>
+                        </li>
+						<li class="submenu">
+                            <a href="#"><span>Accounts</span> <span class="menu-arrow"></span></a>
+                            <ul style="display: none;">
+                                <li><a class="panel-close" href="/estimates/"> Estimates</a></li>
+                                <li><a class="panel-close" href="/invoices/"> Invoices </a></li>
+                                <li><a class="panel-close" href="/payments/"> Payments </a></li>
+                                <li><a class="panel-close" href="/taxes/"> Taxes </a></li>
+                            </ul>
+                        </li>
+						<li class="submenu">
+                            <a href="#"><span>Payroll</span> <span class="menu-arrow"></span></a>
+                            <ul style="display: none;">
+                                <li><a class="panel-close" href="/salary/"> Employee Salary </a></li>
+                                <li><a class="panel-close" href="/salary-view/"> Payslip </a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="panel-close" href="/email/">
+								Email
+                            </a>
+                        </li>
+                        <li>
+                            <a class="panel-close" href="/chat/">
+								Chat
+                            </a>
+                        </li>
+                        <li class="submenu">
+                            <a href="#"><span>Calls</span> <span class="menu-arrow"></span></a>
+                            <ul style="display: none;">
+                                <li><a class="panel-close" href="/voice-call/"> Voice Call </a></li>
+                                <li><a class="panel-close" href="/video-call/"> Video Call </a></li>
+                                <li><a class="panel-close" href="/incoming-call/"> Incoming Call </a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a class="panel-close" href="/users/">
+								Users
+                            </a>
+                        </li>
+						<li>
+                            <a class="panel-close" href="/settings/">
+								Settings
+                            </a>
+                        </li>
+						<li class="submenu">
+                            <a href="#"><span>Pages</span> <span class="menu-arrow"></span></a>
+                            <ul style="display: none;">
+                                <li><a class="panel-close" href="/login/"> Login </a></li>
+                                <li><a class="panel-close" href="/register/"> Register </a></li>
+                                <li><a class="panel-close" href="/forgot-password/"> Forgot Password </a></li>
+                                <li><a class="panel-close" href="/profile/"> Profile </a></li>
+                                <li><a class="panel-close" href="/walkthrough/"> Walkthrough </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="view view-main view-init" data-url="/">
+            <div class="page" data-name="index">
+                <div class="navbar two-action no-hairline">
+                    <div class="navbar-inner">
+                        <div class="left">
+                            <a href="#" class="link icon-only panel-open" data-panel="left"><i class="material-icons">menu</i></a>
+                        </div>
+                        <div class="sliding title"><img src="assets/img/logo.png" alt=""></div>
+                        <div class="right">
+                            <a href="/notifications/" class="link icon-only"><i class="material-icons">notifications</i></a>
+                            <a href="#" data-popover=".main-menu" class="link icon-only popover-open"><i class="material-icons">more_vert</i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="popover main-menu">
+                    <div class="popover-angle"></div>
+                    <div class="popover-inner">
+                        <div class="list">
+                            <ul>
+                                <li><a href="/profile/" class="list-button item-link popover-close">My Profile</a></li>
+                                <li><a href="/settings/" class="list-button item-link popover-close">Settings</a></li>
+                                <li><a href="/login/" class="list-button item-link popover-close">Log Out</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+				
+                <div class="page-content">
+                    <div class="block">
+                        <div class="dashboard-area">
+                            <div class="row">
+                                <div class="col-50 tablet-50">
+									<a href="/projects/">
+										<div class="dash-widget">
+											<div class="dash-widget-icon"><i class="fa fa-cubes"></i></div>
+											<div class="dash-widget-info">
+												<h4>112</h4>
+												<p>Projects</p>
+											</div>
+										</div>
+									</a>
+                                </div>
+                                <div class="col-50 tablet-50">
+									<a href="/clients/">
+										<div class="dash-widget">
+											<div class="dash-widget-icon"><i class="fa fa-usd"></i></div>
+											<div class="dash-widget-info">
+												<h4>$44</h4>
+												<p>Clients</p>
+											</div>
+										</div>
+									</a>
+                                </div>
+                                <div class="col-50 tablet-50">
+									<a href="/tasks/">
+										<div class="dash-widget">
+											<div class="dash-widget-icon"><i class="fa fa-diamond"></i></div>
+											<div class="dash-widget-info">
+												<h4>37</h4>
+												<p>Tasks</p>
+											</div>
+										</div>
+									</a>
+                                </div>
+                                <div class="col-50 tablet-50">
+									<a href="/employees/">
+										<div class="dash-widget">
+											<div class="dash-widget-icon"><i class="fa fa-user"></i></div>
+											<div class="dash-widget-info">
+												<h4>218</h4>
+												<p>Employees</p>
+											</div>
+										</div>
+									</a>
+                                </div>
+                            </div>
+                            <div class="row" id="tt">
+                                <div class="col-100 tablet-50">
+                                    <div class="chart-box">
+                                        <h3 class="title is-3">Bar Chart</h3>
+										<canvas id="bargraph"></canvas>
+                                    </div>
+                                </div>
+                                <div class="col-100 tablet-50">
+                                    <div class="chart-box m-b-0">
+                                        <h3 class="title is-3">Line Graph</h3>
+                                        <canvas id="canvas"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/framework7.min.js"></script>
+    <script type="text/javascript" src="assets/js/Chart.bundle.js"></script>
+    <script type="text/javascript" src="assets/js/routes.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+	
+</body>
+
+</html>

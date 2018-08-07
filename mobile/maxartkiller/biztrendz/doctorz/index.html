@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <!-- Required meta tags-->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black">
+      <link rel="apple-touch-icon" href="img\apple-touch-icon.png">
+      <meta name="mobile-web-app-capable" content="yes">
+      <link rel="shortcut icon" sizes="196x196" href="img\196x196.png">
+      <link rel="shortcut icon" sizes="128x128" href="img\128x128.png">
+      <!-- Color theme for statusbar -->
+      <meta name="theme-color" content="#000000">
+      <!-- Your app title -->
+      <title>Doctorz - Online Appointment Mobile App</title>
+      <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+      <!-- Path to Framework7 Library CSS, Material Theme -->
+      <link rel="stylesheet" href="css\framework7.material.min.css">
+      <link rel="stylesheet" href="css\framework7.3dpanels.min.css">
+      <link rel="stylesheet" href="css\framework7.indexed-list.min.css">
+      <!-- Path to Framework7 color related styles, Material Theme -->
+      <link rel="stylesheet" href="css\framework7.material.colors.min.css">
+      <!-- Slick Carousel -->
+      <link rel="stylesheet" type="text/css" href="css\slick.css">
+      <link rel="stylesheet" type="text/css" href="css\slick-theme.css">
+      <!-- UpScroller -->
+      <link rel="stylesheet" href="css\framework7.upscroller.min.css">
+      <!-- font-awesome.min CSS -->      
+      <link rel="stylesheet" href="css\font-awesome.min.css">
+      <link rel="stylesheet" href="css\font-awesome.css">
+      <!-- Path to your custom app styles-->
+      <link rel="stylesheet" href="font\flaticon.css">
+      <link rel="stylesheet" href="shop-cart\flaticon.css">
+      <link rel="stylesheet" href="css\base.css">
+      <link rel="stylesheet" href="css\my-app.css">
+   </head>
+   <body class="theme-black">
+      <!-- Status bar overlay for fullscreen mode-->
+      <div class="statusbar-overlay"></div>
+      <!-- Panels overlay-->
+      <div class="panel-overlay"></div>
+      <!-- Left panel with reveal effect-->
+      <div class="panel panel-left panel-reveal">
+         <div class="content-block">
+            <!-- Left panel Content -->
+            <div class="list-block media-list">
+               <ul class="no-border">
+                  <li>
+                     <div class="item-content">
+                        <div class="item-media"><img src="img\useri.png" width="60" alt="user"></div>
+                        <div class="item-inner">
+                           <div class="item-title-row margin-top-5">
+                              <div class="item-title text-bold">Dr. David Doe</div>
+                           </div>
+                           <div class="item-subtitle">Nutritionist</div>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <div class="list-block list-menu">
+               <ul class="no-border">
+                  <li>
+                     <i class="flaticon-home"></i> <a href="index.html" class="close-panel no-animation">Home</a>
+                  </li>
+                  <li>
+                     <i class="flaticon-paper"></i>  
+                     <div class="item-has-badge"><a href="features-list.html" class="close-panel no-animation">All Features</a></div>
+                     <span class="badge bg-teal">18</span>
+                  </li>
+                  <li>
+                     <i class="flaticon-calendar-with-day-5"></i>  <a href="book-appointment.html" class="close-panel no-animation">Book Appointment</a>
+                  </li>
+                  <li>
+                     <i class="flaticon-stats"></i>  <a href="diet-chart.html" class="close-panel no-animation">Monthly Diet Stats</a>
+                  </li>
+                  <li>
+                     <i class="flaticon-shopping-cart"></i>  <a href="sample-shop-list.html" class="close-panel no-animation">Buy Products</a>
+                  </li>
+                  <li>
+                     <i class="flaticon-newspaper-3"></i>  
+                     <div class="item-has-badge"> <a href="health-news.html" class="close-panel no-animation">Health News</a></div>
+                     <span class="badge bg-deeporange">09</span>
+                  </li>
+                  <li>
+                     <i class="flaticon-panels-1"></i> <a href="#" class="open-panel" data-panel="right">Right Panel</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!-- Right panel with cover effect-->
+      <div class="panel panel-right panel-cover">
+         <div class="content-block">
+            <div class="row">
+               <div class="col-20 text-center">
+                  <div class="margin-top-20"></div>
+                  <i class="flaticon-settings"></i>
+               </div>
+               <div class="col-60 text-center">
+                  <img src="img\useri.png" width="80" alt="user">
+                  <div>Sam Martin</div>
+                  <div class="user-profession text-thiny margin-top-5">Physical Activities</div>
+                  <div class="right-panel-socials margin-top-20">
+                     <div class="row">
+                        <div class="col-33">
+                           <a href="#"><i class="flaticon-whatsapp"></i></a>
+                        </div>
+                        <div class="col-33">
+                           <a href="#"><i class="flaticon-facebook-2"></i></a>
+                        </div>
+                        <div class="col-33">
+                           <a href="#"><i class="flaticon-twitter-logo"></i></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-20 text-center">
+                  <div class="margin-top-20"></div>
+                  <i class="flaticon-plus"></i>
+               </div>
+            </div>
+            <div class="skills margin-top-20">
+               <div class="progressBar">
+                  <h6>Daily Excersie</h6>
+                  <div class="progressBarContainer">
+                     <div class="progressBarValue value-90"></div>
+                  </div>
+               </div>
+               <div class="progressBar">
+                  <h6>Healthy Foods</h6>
+                  <div class="progressBarContainer">
+                     <div class="progressBarValue value-80"></div>
+                  </div>
+               </div>
+               <div class="progressBar">
+                  <h6>Suppliments</h6>
+                  <div class="progressBarContainer">
+                     <div class="progressBarValue value-30"></div>
+                  </div>
+               </div>
+               <div class="progressBar">
+                  <h6>Diet Chart</h6>
+                  <div class="progressBarContainer">
+                     <div class="progressBarValue value-70"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- /Right Panel -->
+      <!-- Views -->
+      <div class="views tabs">
+         <!-- Your main view, should have "view-main" class -->
+         <div class="view view-main">
+            <!-- Pages container, because we use fixed navbar and toolbar, it has additional appropriate classes-->
+            <div class="pages">
+               <!-- Page, "data-page" contains page name -->
+               <div data-page="index" class="page">
+                  <!-- Scrollable page content -->
+                  <div class="page-content starter-page">
+                     <div class="content-block">
+                        <div class="pull-right">
+                           <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="starter-content">
+                           <center>
+                              <img src="img\head-logo.png" alt="Doctorz" class="image" width="80" height="80">  <br>
+                              <img src="img\logo.png" alt="SLOGO">
+                              <h4>Doctor Appointment</h4>
+                              <p>We provide the perfect HTML mobile app for manage all the doctors appointments online with great features.</p>
+                           </center>
+                        </div>
+                        <div class="row">
+                           <div class="col-100">
+                              <a href="sign-up.html" class="button button-fill  btn1"> 
+                              LOGIN</a>
+                           </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-50">
+                              <a href="register.html" class="button btn2">
+                              FACEBOOK</a>
+                           </div>
+                           <div class="col-50">
+                              <a href="register.html" class="button btn3">
+                              GOOGLE+</a>
+                           </div>
+                        </div>
+                        <center>
+                           <p class="text-center">Already do you have an account? <a href="login.html" class="text-underline link-white ">Login</a></p>
+                        </center>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Path to Framework7 Library JS-->
+      <script type="text/javascript" src="js\framework7.min.js"></script>
+      <script type="text/javascript" src="js\framework7.3dpanels.min.js"></script>
+      <script type="text/javascript" src="js\framework7.indexed-list.min.js"></script>
+      <!-- Slick Carousel -->
+      <script type="text/javascript" src="js\jquery-1.12.3.min.js"></script>
+      <script type="text/javascript" src="js\slick.min.js"></script>
+      <!-- UpScroller -->
+      <script type="text/javascript" src="js\framework7.upscroller.min.js"></script>
+      <!-- Charts -->
+      <script type="text/javascript" src="js\chart.min.js"></script>
+      <!-- Path to your app js-->
+      <script type="text/javascript" src="js\my-app.js"></script>
+   </body>
+</html>

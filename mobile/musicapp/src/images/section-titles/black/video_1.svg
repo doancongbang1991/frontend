@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="16px" viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>video_1@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/video/style-1/black" transform="translate(-6.000000, -9.000000)">
+            <g id="video_1">
+                <rect id="frame" x="0" y="0" width="34" height="34"></rect>
+                <path d="M21.2831527,20.0524775 C21.0572708,22.3527178 19.0537101,23.5217391 16.6097319,23.5217391 L12.6956522,23.5217391 C10.1028874,23.5217391 8,22.192781 8,19.6109882 L8,14.9154906 C8,12.3248595 10.0999443,11 12.6956522,11 L16.6097319,11 C19.0492022,11 21.0540923,12.1751235 21.2826388,14.4696789 L23.6999805,13.061131 C24.9702462,12.0715059 26,12.6092206 26,14.2627034 L26,20.2609757 C26,21.914211 24.969581,22.4516551 23.6926018,21.4567996 L21.2831527,20.0524775 Z" id="shapes" stroke="#000000" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

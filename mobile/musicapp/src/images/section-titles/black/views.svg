@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="14px" viewBox="0 0 19 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>views@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons/eye/black" transform="translate(-8.000000, -10.000000)">
+            <g id="views">
+                <rect id="frame" x="0" y="0" width="34" height="34"></rect>
+                <path d="M17.3199997,23.8100004 C23.2509086,23.8100004 26.6399994,17.8914288 26.6399994,16.9050002 C26.6399994,15.9185716 23.2509086,10 17.3199997,10 C11.3890908,10 8,15.9185716 8,16.9050002 C8,17.8914288 11.3890908,23.8100004 17.3199997,23.8100004 Z M17.3199997,19.7362901 C18.9959329,19.7362901 20.3545452,18.4695153 20.3545452,16.9068694 C20.3545452,15.3442235 18.9959329,14.0774486 17.3199997,14.0774486 C15.6440665,14.0774486 14.2854541,15.3442235 14.2854541,16.9068694 C14.2854541,18.4695153 15.6440665,19.7362901 17.3199997,19.7362901 Z" id="shapes" fill="#1F111C"></path>
+            </g>
+        </g>
+    </g>
+</svg>

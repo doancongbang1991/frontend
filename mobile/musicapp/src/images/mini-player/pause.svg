@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="18px" viewBox="0 0 13 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>pause@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Blocks-&amp;-Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="blocks/mini-player/single-elements/icons/pause" transform="translate(-8.000000, -5.000000)">
+            <g id="pause">
+                <rect id="frame" x="0" y="0" width="28" height="28"></rect>
+                <path d="M10,5.62963867 L10,5.62963867 C11.1045695,5.62963867 12,6.52506917 12,7.62963867 L12,20.6296387 C12,21.7342082 11.1045695,22.6296387 10,22.6296387 C8.8954305,22.6296387 8,21.7342082 8,20.6296387 L8,7.62963867 L8,7.62963867 C8,6.52506917 8.8954305,5.62963867 10,5.62963867 L10,5.62963867 Z M19,5.62963867 C20.1045695,5.62963867 21,6.52506917 21,7.62963867 L21,20.6296387 C21,21.7342082 20.1045695,22.6296387 19,22.6296387 C17.8954305,22.6296387 17,21.7342082 17,20.6296387 L17,7.62963867 L17,7.62963867 C17,6.52506917 17.8954305,5.62963867 19,5.62963867 Z" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

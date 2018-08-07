@@ -1,0 +1,826 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Admin9 - Bootstrap Admin Theme</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="..\vendor\bootstrap\css\bootstrap.min.css" rel="stylesheet">
+
+<!-- swipebox CSS -->
+<link href="..\vendor\masonry_swipebox\swipebox.min-1.css" rel="stylesheet">
+
+<!-- Custom CSS -->
+<link href="..\css\adminnine_darkblue.css" rel="stylesheet">
+
+<!-- Custom Fonts -->
+<link href="..\vendor\font-awesome\css\font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+<!-- loader -->
+<div class="loader"><h1 class="loadingtext">Admin<span>9</span></h1><p>Awesome things getting ready...</p><br><img src="..\img\loader2.gif" alt=""> </div>
+<!-- loader ends -->
+<div id="wrapper">
+  <div class="navbar-default sidebar">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      <a class="navbar-brand" href="index.html">Admin9</a> </div>
+    <div class="clearfix"></div>
+    <div class="sidebar-nav navbar-collapse"> 
+      
+      <!-- user profile pic -->
+      <div class="userprofile text-center">
+        <div class="userpic"> <img src="..\img\pic4.png" alt="" class="userpicimg"> <a href="" class="btn btn-primary settingbtn"><i class="fa fa-gear"></i></a> </div>
+        <h3 class="username">Lucky Sans</h3>
+        <p>Gujarat, India</p>
+      </div>
+      <div class="clearfix"></div>
+      <!-- user profile pic -->
+      
+      <ul class="nav" id="side-menu">
+        <li> <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a> </li>
+        <li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-cubes"></i> App Pages <span class="badge">12</span><span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="mail.html">Mailbox</a></li>
+            <li><a href="user_list.html">User List</a></li>
+            <li><a href="user_records.html">User Record</a></li>
+            <li><a href="socialprofile.html">Social Profile</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="timeline.html">Timeline</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="invoice.html">Invoice</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <!-- /.nav-second-level --> 
+        </li>
+        <li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-bar-chart-o fa-fw"></i> Charts & Maps<span class="badge red">6</span><span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li> <a href="flot.html">Flot Charts</a> </li>
+            <li> <a href="morris.html">Morris.js Charts</a> </li>
+            <li> <a href="chartjs.html">Chart.js Charts</a> </li>
+            <li> <a href="jvectormap.html">jVectormap</a> </li>
+            <li> <a href="googlemap.html">Google map</a> </li>
+            <li> <a href="googlemapfull.html">Google map full</a> </li>
+          </ul>
+          <!-- /.nav-second-level --> 
+        </li>
+        <li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-files-o fa-fw"></i> Sample Pages <span class="badge green">10</span><span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="blank.html">Blank Page</a></li>
+            <li> <a href="login.html">Login</a></li>
+            <li><a href="register.html">Sign up</a></li>
+            <li><a href="forgotpassword.html">Forgot password</a></li>
+            <li><a href="lock.html">Lock</a></li>
+            <li><a href="404.html">404</a></li>
+            <li><a href="500.html">500</a></li>
+            <li><a href="searchresult.html">Search Result</a></li>
+            <li><a href="FAQs.html">FAQs</a></li>
+            <li><a href="commingsoon.html">Coming Soon...</a></li>
+          </ul>
+          <!-- /.nav-second-level --> 
+        </li>
+        <li> <a href="tables.html"><i class="fa fa-table fa-fw"></i> Tables</a> </li>
+        <li> <a href="forms.html"><i class="fa fa-edit fa-fw"></i> Forms</a> </li>
+        <li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-wrench fa-fw"></i> UI Elements <span class="badge yellow">12</span> <span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="panels-wells.html">Panels and Wells</a></li>
+            <li><a href="accordion.html">Accordion</a></li>
+            <li><a href="Tabs.html">Tabs</a></li>
+            <li><a href="buttons.html">Buttons</a></li>
+            <li><a href="notifications.html">Notifications</a></li>
+            <li><a href="modal.html">Modal</a></li>
+            <li><a href="popover.html">Popover</a></li>
+            <li><a href="typography.html">Typography</a></li>
+            <li><a href="icons.html"> Icons</a></li>
+            <li><a href="grid.html">Grid</a></li>
+            <li><a href="progressbar.html">Progress bar</a></li>
+            <li><a href="rangeslider.html">Range Slider</a></li>
+          </ul>
+          <!-- /.nav-second-level --> 
+        </li>
+		 <li> <a href="javascript:void(0)" class="menudropdown"><i class="fa  fa-shopping-cart fa-fw"></i>eCommerce<span class="badge blue">3</span> <span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li><a href="products.html">Products</a></li>
+            <li><a href="product_details.html">Product Details</a></li>
+            <li><a href="products_orderstatus.html">Order status</a></li>
+          </ul>
+          <!-- /.nav-second-level --> 
+        </li>  
+		
+        <li> <a href="javascript:void(0)" class="menudropdown"><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+          <ul class="nav nav-second-level">
+            <li> <a href="javascript:void(0)">Second Level Item</a> </li>
+            <li> <a href="javascript:void(0)">Second Level Item</a> </li>
+              <!-- .nav-third-level menudropdown2 --> 
+            <li> <a href="javascript:void(0)" class="menudropdown2">Third Level <span class="fa arrow"></span></a>
+              <ul class="nav nav-third-level">
+                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
+                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
+                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
+                <li> <a href="javascript:void(0)">Third Level Item</a> </li>
+              </ul>
+              <!-- /.nav-third-level --> 
+            </li>
+          </ul>
+          <!-- /.nav-second-level --> 
+        </li>
+        
+      </ul>
+    </div>
+    <!-- /.sidebar-collapse --> 
+  </div>
+  <!-- /.navbar-static-side --> 
+  
+  <!-- Page Content -->
+  <div id="page-wrapper">
+    <div class="row">
+      <nav class="navbar navbar-default navbar-static-top" style="margin-bottom: 0">
+        <button class="menubtn pull-left btn "><i class="glyphicon  glyphicon-th"></i></button>
+        <div class="searchwarpper">
+          <div class="input-group searchglobal">
+            <input type="text" class="form-control" placeholder="Search for..." autofocus="">
+            <span class="input-group-btn">
+            <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+            </span> </div>
+          <!-- /input-group --> 
+        </div>
+        <ul class="nav navbar-top-links navbar-right">
+          <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)"> <i class="fa fa-envelope fa-fw"></i> </a>
+            <ul class="dropdown-menu dropdown-messages">
+              <li> <a href="javascript:void(0)">
+                <div> <strong>John Smith</strong> <span class="pull-right text-muted"> <em>Yesterday</em> </span> </div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                </a> </li>
+              <li> <a href="javascript:void(0)">
+                <div> <strong>John Smith</strong> <span class="pull-right text-muted"> <em>Yesterday</em> </span> </div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                </a> </li>
+              <li> <a href="javascript:void(0)">
+                <div> <strong>John Smith</strong> <span class="pull-right text-muted"> <em>Yesterday</em> </span> </div>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                </a> </li>
+              <li> <a class="text-center" href="javascript:void(0)"> <strong>Read All Messages</strong> <i class="fa fa-angle-right"></i> </a> </li>
+            </ul>
+            <!-- /.dropdown-messages --> 
+          </li>
+          <!-- /.dropdown -->
+          <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)"> <i class="fa fa-tasks fa-fw"></i> <span class="count">9+</span> </a>
+            <ul class="dropdown-menu dropdown-tasks">
+              <li> <a href="javascript:void(0)">
+                <div>
+                  <p> <strong>Task 1</strong> <span class="pull-right text-muted">40% Complete</span> </p>
+                  <div class="progress progress-striped active">
+                    <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%"> <span class="sr-only">40% Complete (success)</span> </div>
+                  </div>
+                </div>
+                </a> </li>
+              <li> <a href="javascript:void(0)">
+                <div>
+                  <p> <strong>Task 2</strong> <span class="pull-right text-muted">20% Complete</span> </p>
+                  <div class="progress progress-striped active">
+                    <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%"> <span class="sr-only">20% Complete</span> </div>
+                  </div>
+                </div>
+                </a> </li>
+              <li> <a href="javascript:void(0)">
+                <div>
+                  <p> <strong>Task 3</strong> <span class="pull-right text-muted">60% Complete</span> </p>
+                  <div class="progress progress-striped active">
+                    <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%"> <span class="sr-only">60% Complete (warning)</span> </div>
+                  </div>
+                </div>
+                </a> </li>
+              <li> <a href="javascript:void(0)">
+                <div>
+                  <p> <strong>Task 4</strong> <span class="pull-right text-muted">80% Complete</span> </p>
+                  <div class="progress progress-striped active">
+                    <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"> <span class="sr-only">80% Complete (danger)</span> </div>
+                  </div>
+                </div>
+                </a> </li>
+              <li> <a class="text-center" href="javascript:void(0)"> <strong>See All Tasks</strong> <i class="fa fa-angle-right"></i> </a> </li>
+            </ul>
+            <!-- /.dropdown-tasks --> 
+          </li>
+          <!-- /.dropdown -->
+          <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)"> <i class="fa fa-bell fa-fw"></i> <span class="count">1</span> </a>
+            <ul class="dropdown-menu dropdown-alerts">
+              <li> <a href="javascript:void(0)">
+                <div> <i class="fa fa-comment fa-fw"></i> New Comment <span class="pull-right text-muted small">4 minutes ago</span> </div>
+                </a> </li>
+              <li> <a href="javascript:void(0)">
+                <div> <i class="fa fa-twitter fa-fw"></i> 3 New Followers <span class="pull-right text-muted small">12 minutes ago</span> </div>
+                </a> </li>
+              <li> <a href="javascript:void(0)">
+                <div> <i class="fa fa-envelope fa-fw"></i> Message Sent <span class="pull-right text-muted small">4 minutes ago</span> </div>
+                </a> </li>
+              <li> <a href="javascript:void(0)">
+                <div> <i class="fa fa-tasks fa-fw"></i> New Task <span class="pull-right text-muted small">4 minutes ago</span> </div>
+                </a> </li>
+              <li> <a href="javascript:void(0)">
+                <div> <i class="fa fa-upload fa-fw"></i> Server Rebooted <span class="pull-right text-muted small">4 minutes ago</span> </div>
+                </a> </li>
+              <li> <a class="text-center" href="javascript:void(0)"> <strong>See All Alerts</strong> <i class="fa fa-angle-right"></i> </a> </li>
+            </ul>
+            <!-- /.dropdown-alerts --> 
+          </li>
+          <!-- /.dropdown -->
+          <li class="dropdown"> <a class="dropdown-toggle userdd" data-toggle="dropdown" href="javascript:void(0)">
+            <div class="userprofile small "> <span class="userpic"> <img src="..\img\pic4.png" alt="" class="userpicimg"> </span>
+              <div class="textcontainer">
+                <h3 class="username">Lucky Sans</h3>
+                <p>Gujarat, India</p>
+              </div>
+            </div>
+            <i class="caret"></i> </a>
+            <ul class="dropdown-menu dropdown-user">
+              <li> <a href="socialprofile.html"><i class="fa fa-user fa-fw"></i> User Profile</a> </li>
+              <li> <a href="javascript:void(0)"><i class="fa fa-gear fa-fw"></i> Settings</a> </li>
+              <li> <a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a> </li>
+            </ul>
+            <!-- /.dropdown-user --> 
+          </li>
+          <!-- /.dropdown -->
+        </ul>
+        <!-- /.navbar-top-links --> 
+        
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-md-12  header-wrapper">
+        <h1 class="page-header">Social Profile</h1>
+        <p class="page-subtitle">This is amazing template for all type of admin interfaces.</p>
+      </div>
+      <!-- /.col-lg-12 --> 
+    </div>
+    <!-- /.row -->
+    <ol class="breadcrumb">
+      <li><a href="javascript:void(0)">Admin9</a></li>
+      <li class="active">User social profile</li>
+    </ol>
+    <div class="row">
+      <div class="col-md-12 text-center ">
+        <div class="panel panel-default">
+          <div class="userprofile social ">
+            <div class="userpic"> <img src="..\img\pic4.png" alt="" class="userpicimg"> </div>
+            <h3 class="username">Lucky Sans</h3>
+            <p>Gujarat, India</p>
+            <div class="socials tex-center"> <a href="" class="btn btn-circle btn-primary "><i class="fa fa-facebook"></i></a> <a href="" class="btn btn-circle btn-danger "><i class="fa fa-google-plus"></i></a> <a href="" class="btn btn-circle btn-info "><i class="fa fa-twitter"></i></a> <a href="" class="btn btn-circle btn-warning "><i class="fa fa-envelope"></i></a> </div>
+          </div>
+          <div class="col-md-12 border-top border-bottom">
+            <ul class="nav nav-pills pull-left countlist" role="tablist">
+              <li role="presentation">
+                <h3>1452<br>
+                  <small>Follower</small> </h3>
+              </li>
+              <li role="presentation">
+                <h3>245<br>
+                  <small>Following</small> </h3>
+              </li>
+              <li role="presentation">
+                <h3>5000<br>
+                  <small>Activity</small> </h3>
+              </li>
+            </ul>
+            <button class="btn btn-primary followbtn">Follow</button>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <!-- /.col-lg-12 -->
+      <div class="col-lg-4 col-sm-12 pull-right">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h1 class="page-header small">Personal Details</h1>
+            <p class="page-subtitle small">Limited information is visible</p>
+          </div>
+          <div class="col-md-12">
+            <dl class="dl-horizontal">
+              <dt>Full Name</dt>
+              <dd>Lucky Sans</dd>
+              <dt>Email</dt>
+              <dd>info@maxartkiller.in</dd>
+              <dt>Phone</dt>
+              <dd>+91 000 000 00000</dd>
+              <dt>Company</dt>
+              <dd>Maxartkiller comapny Inc</dd>
+              <dt>Address</dt>
+              <dd>Apnville, 34-of 3nd. Newyork, UK- 2451</dd>
+            </dl>
+          </div>
+          <div class="col-md-12 photolist">
+            <div class="row">
+              <div class="col-sm-3 col-xs-3"><img src="..\img\pic2.png" class="" alt=""> </div>
+              <div class="col-sm-3 col-xs-3"><img src="..\img\pic1.png" class="" alt=""> </div>
+              <div class="col-sm-3 col-xs-3"><img src="..\img\pic2.png" class="" alt=""> </div>
+              <div class="col-sm-3 col-xs-3"><img src="..\img\pic4.png" class="" alt=""> </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h1 class="page-header small">Worked with many domain</h1>
+            <p class="page-subtitle small">Like to work fr different business</p>
+          </div>
+          <div class="col-md-12">
+            <ul class="list-group">
+              <li class="list-group-item"><span class="fa fa-male"></span> Worked with 1000+ people</li>
+              <li class="list-group-item"><span class="fa fa-institution"></span> 60+ offices</li>
+              <li class="list-group-item"><span class="fa fa-user"></span> 50000+ satify customers</li>
+              <li class="list-group-item"><span class="fa fa-clock-o"></span> Work hours many and many still counting</li>
+              <li class="list-group-item"><span class="fa fa-heart"></span> Customer satisfaction for servics</li>
+            </ul>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h1 class="page-header small">What others are saying </h1>
+            <p class="page-subtitle small">Express your self, Express to other</p>
+          </div>
+          <div class="col-md-12">
+            <div class="media">
+              <div class="media-left"> <a href="javascript:void(0)"> <img src="..\img\pic4.png" alt="" class="media-object"> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading">Lucky Sans</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio. </div>
+            </div>
+            <div class="media">
+              <div class="media-left"> <a href="javascript:void(0)"> <img src="..\img\pic1.png" alt="" class="media-object"> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading">John Doe</h4>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio. </div>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h1 class="page-header small">Recently Connected</h1>
+            <p class="page-subtitle small">You have recemtly connected with 34 friends</p>
+          </div>
+          <div class="col-md-12">
+            <div class="memberblock"> <a href="" class="member"> <img src="..\img\pic4.png" alt="">
+              <div class="memmbername">Ajay Sriram</div>
+              </a> <a href="" class="member"> <img src="..\img\pic1.png" alt="">
+              <div class="memmbername">Rajesh Sriram</div>
+              </a> <a href="" class="member"> <img src="..\img\pic2.png" alt="">
+              <div class="memmbername">Manish Sriram</div>
+              </a> <a href="" class="member"> <img src="..\img\pic3.png" alt="">
+              <div class="memmbername">Chandra Amin</div>
+              </a> <a href="" class="member"> <img src="..\img\pic2.png" alt="">
+              <div class="memmbername">John Sriram</div>
+              </a> <a href="" class="member"> <img src="..\img\pic4.png" alt="">
+              <div class="memmbername">Lincoln Sriram</div>
+              </a> </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+      <div class="col-lg-8 col-sm-12 pull-left posttimeline">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <div class="status-upload nopaddingbtm">
+              <form>
+                <textarea class="form-control" placeholder="What are you doing right now?"></textarea>
+                <br>
+                <ul class="nav nav-pills pull-left ">
+                  <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Audio"><i class="glyphicon glyphicon-bullhorn"></i></a></li>
+                  <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Video"><i class=" glyphicon glyphicon-facetime-video"></i></a></li>
+                  <li><a title="" data-toggle="tooltip" data-placement="bottom" data-original-title="Picture"><i class="glyphicon glyphicon-picture"></i></a></li>
+                </ul>
+                <button type="submit" class="btn btn-success pull-right"> Share</button>
+              </form>
+            </div>
+            <!-- Status Upload  --> 
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="btn-group pull-right postbtn">
+            <button type="button" class="dotbtn dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <span class="dots"></span> </button>
+            <ul class="dropdown-menu pull-right" role="menu">
+              <li><a href="javascript:void(0)">Hide this</a></li>
+              <li><a href="javascript:void(0)">Report</a></li>
+            </ul>
+          </div>
+          <div class="col-md-12">
+            <div class="media">
+              <div class="media-left"> <a href="javascript:void(0)"> <img src="..\img\pic4.png" alt="" class="media-object"> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading">Lucky Sans<br>
+                  <small><i class="fa fa-clock-o"></i> Yesterday, 2:00 am</small> </h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio. </p>
+                <div class="grid three profilegallery">
+                  <div class="grid-item"><a href="..\img\gallery2-1.jpeg" rel="gallery-1" class="swipebox" title="My Caption"> <img src="..\img\gallery2-1.jpeg" alt="image"> </a></div>
+                  <div class="grid-item"><a href="..\img\gallery3-1.jpeg" rel="gallery-1" class="swipebox" title="My Caption"> <img src="..\img\gallery3-1.jpeg" alt="image"> </a> </div>
+                  <div class="grid-item"><a href="..\img\gallery4-1.jpeg" rel="gallery-1" class="swipebox" title="My Caption"> <img src="..\img\gallery4-1.jpeg" alt="image"> </a></div>
+                </div>
+                <ul class="nav nav-pills pull-left ">
+                  <li><a href="" title=""><i class="glyphicon glyphicon-thumbs-up"></i> 2015</a></li>
+                  <li><a href="" title=""><i class=" glyphicon glyphicon-comment"></i> 25</a></li>
+                  <li><a href="" title=""><i class="glyphicon glyphicon-share-alt"></i> 15</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 commentsblock border-top">
+            <div class="media">
+              <div class="media-left"> <a href="javascript:void(0)"> <img alt="64x64" src="..\img\pic2.png" class="media-object"> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading">Astha Smith</h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left"> <a href="javascript:void(0)"> <img alt="64x64" src="..\img\pic4.png" class="media-object"> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading">Lucky Sans</h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </p>
+                <div class="media">
+                  <div class="media-left"> <a href="javascript:void(0)"> <img alt="64x64" src="..\img\pic3.png" class="media-object"> </a> </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Astha Smith</h4>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="btn-group pull-right postbtn">
+            <button type="button" class="dotbtn dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <span class="dots"></span> </button>
+            <ul class="dropdown-menu pull-right" role="menu">
+              <li><a href="javascript:void(0)">Hide this</a></li>
+              <li><a href="javascript:void(0)">Report</a></li>
+            </ul>
+          </div>
+          <div class="col-md-12">
+            <div class="media">
+              <div class="media-left"> <a href="javascript:void(0)"> <img src="..\img\pic4.png" alt="" class="media-object"> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading"> Lucky Sans<br>
+                  <small><i class="fa fa-clock-o"></i> Yesterday, 2:00 am</small> </h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio. </p>
+                <ul class="nav nav-pills pull-left ">
+                  <li><a href="" title=""><i class="glyphicon glyphicon-thumbs-up"></i> 2015</a></li>
+                  <li><a href="" title=""><i class=" glyphicon glyphicon-comment"></i> 25</a></li>
+                  <li><a href="" title=""><i class="glyphicon glyphicon-share-alt"></i> 15</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 border-top">
+            <div class="status-upload">
+              <form>
+                <label>Comment</label>
+                <textarea class="form-control" placeholder="Comment here"></textarea>
+                <br>
+                <ul class="nav nav-pills pull-left ">
+                  <li><a title=""><i class="glyphicon glyphicon-bullhorn"></i></a></li>
+                  <li><a title=""><i class=" glyphicon glyphicon-facetime-video"></i></a></li>
+                  <li><a title=""><i class="glyphicon glyphicon-picture"></i></a></li>
+                </ul>
+                <button type="submit" class="btn btn-success pull-right"> Comment</button>
+              </form>
+            </div>
+            <!-- Status Upload  --> 
+            
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="btn-group pull-right postbtn">
+            <button type="button" class="dotbtn dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <span class="dots"></span> </button>
+            <ul class="dropdown-menu pull-right" role="menu">
+              <li><a href="javascript:void(0)">Hide this</a></li>
+              <li><a href="javascript:void(0)">Report</a></li>
+            </ul>
+          </div>
+          <div class="col-md-12">
+            <div class="media">
+              <div class="media-left"> <a href="javascript:void(0)"> <img src="..\img\pic4.png" alt="" class="media-object"> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading"> Lucky Sans<br>
+                  <small><i class="fa fa-clock-o"></i> Yesterday, 2:00 am</small> </h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio. </p>
+                <ul class="nav nav-pills pull-left ">
+                  <li><a href="" title=""><i class="glyphicon glyphicon-thumbs-up"></i> 2015</a></li>
+                  <li><a href="" title=""><i class=" glyphicon glyphicon-comment"></i> 25</a></li>
+                  <li><a href="" title=""><i class="glyphicon glyphicon-share-alt"></i> 15</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 commentsblock border-top">
+            <div class="media">
+              <div class="media-left"> <a href="javascript:void(0)"> <img alt="64x64" src="..\img\pic3.png" class="media-object"> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading">Astha Smith</h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus. </p>
+                <div class="media">
+                  <div class="media-left"> <a href="javascript:void(0)"> <img alt="64x64" src="..\img\pic4.png" class="media-object"> </a> </div>
+                  <div class="media-body">
+                    <h4 class="media-heading">Nested Lucky Sans</h4>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="btn-group pull-right postbtn">
+            <button type="button" class="dotbtn dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <span class="dots"></span> </button>
+            <ul class="dropdown-menu pull-right" role="menu">
+              <li><a href="javascript:void(0)">Hide this</a></li>
+              <li><a href="javascript:void(0)">Report</a></li>
+            </ul>
+          </div>
+          <div class="col-md-12">
+            <div class="media">
+              <div class="media-left"> <a href="javascript:void(0)"> <img src="..\img\pic4.png" alt="" class="media-object"> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading"> Lucky Sans<br>
+                  <small><i class="fa fa-clock-o"></i> Yesterday, 2:00 am</small> </h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio. </p>
+                <ul class="nav nav-pills pull-left ">
+                  <li><a href="" title=""><i class="glyphicon glyphicon-thumbs-up"></i> 2015</a></li>
+                  <li><a href="" title=""><i class=" glyphicon glyphicon-comment"></i> 25</a></li>
+                  <li><a href="" title=""><i class="glyphicon glyphicon-share-alt"></i> 15</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="btn-group pull-right postbtn">
+            <button type="button" class="dotbtn dropdown-toggle" data-toggle="dropdown" aria-expanded="false"> <span class="dots"></span> </button>
+            <ul class="dropdown-menu pull-right" role="menu">
+              <li><a href="javascript:void(0)">Hide this</a></li>
+              <li><a href="javascript:void(0)">Report</a></li>
+            </ul>
+          </div>
+          <div class="col-md-12">
+            <div class="media">
+              <div class="media-left"> <a href="javascript:void(0)"> <img src="..\img\pic4.png" alt="" class="media-object"> </a> </div>
+              <div class="media-body">
+                <h4 class="media-heading"> Lucky Sans<br>
+                  <small><i class="fa fa-clock-o"></i> Yesterday, 2:00 am</small> </h4>
+                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio. </p>
+                <ul class="nav nav-pills pull-left ">
+                  <li><a href="" title=""><i class="glyphicon glyphicon-thumbs-up"></i> 2015</a></li>
+                  <li><a href="" title=""><i class=" glyphicon glyphicon-comment"></i> 25</a></li>
+                  <li><a href="" title=""><i class="glyphicon glyphicon-share-alt"></i> 15</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row --> 
+    
+  </div>
+  <!-- /#page-wrapper --> 
+  
+</div>
+<!-- /#wrapper -->
+<div class="feedback">
+  <button class="btn btn-primary feedbackbtn"><i class="fa  fa-comment-o"></i></button>
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <div class="page-header small">Hello, Lucky Sans,</div>
+      <div class="page-subtitle small">Please prvide your detailed feedback to us.</div>
+    </div>
+    <div class="panel-body">
+      <textarea class="form-control" placeholder="Write your feedback here"></textarea>
+    </div>
+    <div class="panel-footer">
+      <button class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</div>
+<div class="chat-panel panel panel-default">
+  <div class="panel-heading"> <i class="fa fa-comments fa-fw"></i> Chat
+    <div class="btn-group pull-right">
+      <button type="button" class="dotbtn dropdown-toggle" data-toggle="dropdown"> <i class="dots"></i> </button>
+      <ul class="dropdown-menu slidedown">
+        <li> <a href="javascript:void(0)"> <i class="fa fa-refresh fa-fw"></i> Refresh </a> </li>
+        <li> <a href="javascript:void(0)"> <i class="fa fa-check-circle fa-fw"></i> Available </a> </li>
+        <li> <a href="javascript:void(0)"> <i class="fa fa-times fa-fw"></i> Busy </a> </li>
+        <li> <a href="javascript:void(0)"> <i class="fa fa-clock-o fa-fw"></i> Away </a> </li>
+        <li> <a href="javascript:void(0)"> <i class="fa fa-sign-out fa-fw"></i> Sign Out </a> </li>
+      </ul>
+    </div>
+  </div>
+  <!-- /.panel-heading -->
+  <div class="panel-body no-padding">
+    <ul class="nav nav-tabs">
+      <li class="active"><a href="#friends" data-toggle="tab">Friends</a> </li>
+      <li><a href="#chat" data-toggle="tab">Chat</a> </li>
+    </ul>
+    
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div class="tab-pane fade in active" id="friends">
+        <table class="table table-bordered table-hover">
+          <tbody>
+            <tr>
+              <td><img src="..\img\pic1.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">John Doe</h3>
+                  <p>Designer, India</p>
+                </div>
+                <span class="online"></span></td>
+            </tr>
+            <tr>
+              <td><img src="..\img\pic2.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">Steave Donald</h3>
+                  <p>Designer, India</p>
+                </div>
+                <span class="online"></span></td>
+            </tr>
+            <tr>
+              <td><img src="..\img\pic3.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">Astha Smith</h3>
+                  <p>Designer, India</p>
+                </div></td>
+            </tr>
+            <tr>
+              <td><img src="..\img\pic4.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">Lucky Sans</h3>
+                  <p>Designer, India</p>
+                </div></td>
+            </tr>
+              <tr>
+              <td><img src="..\img\pic1.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">John Doe</h3>
+                  <p>Designer, India</p>
+                </div>
+                <span class="online"></span></td>
+            </tr>
+            <tr>
+              <td><img src="..\img\pic2.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">Steave Donald</h3>
+                  <p>Designer, India</p>
+                </div>
+                <span class="online"></span></td>
+            </tr>
+            <tr>
+              <td><img src="..\img\pic3.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">Astha Smith</h3>
+                  <p>Designer, India</p>
+                </div></td>
+            </tr>
+            <tr>
+              <td><img src="..\img\pic4.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">Lucky Sans</h3>
+                  <p>Designer, India</p>
+                </div></td>
+            </tr>
+              <tr>
+              <td><img src="..\img\pic1.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">John Doe</h3>
+                  <p>Designer, India</p>
+                </div>
+                <span class="online"></span></td>
+            </tr>
+            <tr>
+              <td><img src="..\img\pic2.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">Steave Donald</h3>
+                  <p>Designer, India</p>
+                </div>
+                <span class="online"></span></td>
+            </tr>
+            <tr>
+              <td><img src="..\img\pic3.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">Astha Smith</h3>
+                  <p>Designer, India</p>
+                </div></td>
+            </tr>
+            <tr>
+              <td><img src="..\img\pic4.png" alt="" class="gridpic">
+                <div class="textcontainer">
+                  <h3 class="usernamelist">Lucky Sans</h3>
+                  <p>Designer, India</p>
+                </div></td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade padding" id="chat">
+        <ul class="chat">
+          <li class="left clearfix"> <span class="chat-img pull-left"> <img src="..\img\pic4.png" alt="User Avatar" class="img-circle"> </span>
+            <div class="chat-body clearfix">
+              <div class="header"> <strong class="primary-font">John Smith</strong> <small class="pull-right text-muted"> <i class="fa fa-clock-o fa-fw"></i> 12 mins ago </small> </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales. </p>
+            </div>
+          </li>
+          <li class="right clearfix"> <span class="chat-img pull-right"> <img src="..\img\pic2.png" alt="User Avatar" class="img-circle"> </span>
+            <div class="chat-body clearfix">
+              <div class="header"> <small class=" text-muted"> <i class="fa fa-clock-o fa-fw"></i> 13 mins ago</small> <strong class="pull-right primary-font">Lucky Sans</strong> </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales. </p>
+            </div>
+          </li>
+          <li class="left clearfix"> <span class="chat-img pull-left"> <img src="..\img\pic4.png" alt="User Avatar" class="img-circle"> </span>
+            <div class="chat-body clearfix">
+              <div class="header"> <strong class="primary-font">John Smith</strong> <small class="pull-right text-muted"> <i class="fa fa-clock-o fa-fw"></i> 14 mins ago</small> </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales. </p>
+            </div>
+          </li>
+          <li class="right clearfix"> <span class="chat-img pull-right"> <img src="..\img\pic2.png" alt="User Avatar" class="img-circle"> </span>
+            <div class="chat-body clearfix">
+              <div class="header"> <small class=" text-muted"> <i class="fa fa-clock-o fa-fw"></i> 15 mins ago</small> <strong class="pull-right primary-font">Lucky Sans</strong> </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales. </p>
+            </div>
+          </li>
+          <li class="left clearfix"> <span class="chat-img pull-left"> <img src="..\img\pic4.png" alt="User Avatar" class="img-circle"> </span>
+            <div class="chat-body clearfix">
+              <div class="header"> <strong class="primary-font">John Smith</strong> <small class="pull-right text-muted"> <i class="fa fa-clock-o fa-fw"></i> 12 mins ago </small> </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales. </p>
+            </div>
+          </li>
+          <li class="right clearfix"> <span class="chat-img pull-right"> <img src="..\img\pic2.png" alt="User Avatar" class="img-circle"> </span>
+            <div class="chat-body clearfix">
+              <div class="header"> <small class=" text-muted"> <i class="fa fa-clock-o fa-fw"></i> 13 mins ago</small> <strong class="pull-right primary-font">Lucky Sans</strong> </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales. </p>
+            </div>
+          </li>
+          <li class="left clearfix"> <span class="chat-img pull-left"> <img src="..\img\pic4.png" alt="User Avatar" class="img-circle"> </span>
+            <div class="chat-body clearfix">
+              <div class="header"> <strong class="primary-font">John Smith</strong> <small class="pull-right text-muted"> <i class="fa fa-clock-o fa-fw"></i> 14 mins ago</small> </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales. </p>
+            </div>
+          </li>
+          <li class="right clearfix"> <span class="chat-img pull-right"> <img src="..\img\pic2.png" alt="User Avatar" class="img-circle"> </span>
+            <div class="chat-body clearfix">
+              <div class="header"> <small class=" text-muted"> <i class="fa fa-clock-o fa-fw"></i> 15 mins ago</small> <strong class="pull-right primary-font">Lucky Sans</strong> </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur bibendum ornare dolor, quis ullamcorper ligula sodales. </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- /.panel-body -->
+  <div class="panel-footer">
+    <div class="input-group">
+      <input id="btn-input" type="text" class="form-control input-sm" placeholder="Type your message here...">
+      <span class="input-group-btn">
+      <button class="btn btn-success btn-sm" id="btn-chat"> Send </button>
+      </span> </div>
+  </div>
+  <!-- /.panel-footer --> 
+</div>
+<!-- /.panel .chat-panel -->
+<button class="btn btn-primary chatbtn"><i class="fa fa-comments"></i></button>
+
+<!-- jQuery --> 
+<script src="..\vendor\jquery\jquery.min.js"></script> 
+
+<!-- Gallery and swipebox JavaScript --> 
+<script src="..\vendor\masonry_swipebox\jquery.swipebox-1.js"></script> 
+<script src="..\vendor\masonry_swipebox\masonry.pkgd.min-1.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="..\vendor\bootstrap\js\bootstrap.min.js"></script> 
+
+<!-- Custom Theme JavaScript --> 
+<script src="..\js\adminnine.js"></script> 
+<script>
+        $('.grid').masonry({
+          itemSelector: '.grid-item'
+        });
+            
+        $('.swipebox').swipebox();
+    </script>
+</body>
+</html>
