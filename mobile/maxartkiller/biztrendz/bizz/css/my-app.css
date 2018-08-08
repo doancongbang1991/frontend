@@ -54,7 +54,7 @@ Template:		BizTrendz - Mobile Web APP Template
 /*===============================================*/
 
 .panels-3d {
-    background-image: url(../../../../hostrider/image/upload/v1495432513/1234_lmqveo.jpeg);
+    background-image: url(../img/1234_lmqveo.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -763,7 +763,7 @@ Template:		BizTrendz - Mobile Web APP Template
     margin-left: 9%;
 }
 #app-cover {
-    background-image: url("../../../../hostrider/image/upload/v1495432515/login-bgi_bajjiy.jpeg");
+    background-image: url("../img/login-bgi_bajjiy.jpeg");
     background-size: cover;
     color: #FFFFFF;
     padding: 20px 15px;

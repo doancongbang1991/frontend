@@ -113,7 +113,7 @@ Template:		Doctorz - Mobile Web APP Template
     padding-top: 32%;
 }
 .starter-page {
-    background-image: url(../../../../hostrider/image/upload/v1495444033/bgi_ppn7bq.jpeg);
+    background-image: url(../img/bgi_ppn7bq.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -148,7 +148,7 @@ Template:		Doctorz - Mobile Web APP Template
 /*===============================================*/
 
 .panels-3d {
-    background-image: url(../../../../hostrider/image/upload/v1495444018/bgi-panel_u7ot77.jpeg);
+    background-image: url(../img/bgi-panel_u7ot77.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
