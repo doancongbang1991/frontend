@@ -13,9 +13,7 @@
 - Rock On
 + [Blue style](https://doancongbang1991.github.io/frontend/web/rockon/rockon_blue/pages/)
 - Pre clinic
-+ [Blue style](https://doancongbang1991.github.io/frontend/web/preclinic/blue/)
-+ [Green style](https://doancongbang1991.github.io/frontend/web/preclinic/green/)
-+ [Light style](https://doancongbang1991.github.io/frontend/web/preclinic/light/)
++ [Preview](https://doancongbang1991.github.io/frontend/web/preclinic/)
 - Materialize Admin version 3
 + [Demo Link](https://doancongbang1991.github.io/frontend/web/materializeadmin3/)
 - Materialize Admin version 4
@@ -25,10 +23,10 @@
 + [Overlay menu](https://doancongbang1991.github.io/frontend/web/materializeadmin4/materialize-admin/html/overlay-menu/)
 + [Semi dark menu](https://doancongbang1991.github.io/frontend/web/materializeadmin4/materialize-admin/html/semi-dark-menu/)
 - Admin 9
-+ [Admin9](https://doancongbang1991.github.io/frontend/web/admin9/admin9/) 
-+ [Admin9_classic](https://doancongbang1991.github.io/frontend/web/admin9/admin9_classic/) 
-+ [Admin9_dark](https://doancongbang1991.github.io/frontend/web/admin9/admin9_dark/)
-+ [Admin9_darkblue](https://doancongbang1991.github.io/frontend/web/admin9/admin9_darkblue/) 
++ [Admin9](https://doancongbang1991.github.io/frontend/web/admin9/admin9/pages/) 
++ [Admin9_classic](https://doancongbang1991.github.io/frontend/web/admin9/admin9_classic/pages/) 
++ [Admin9_dark](https://doancongbang1991.github.io/frontend/web/admin9/admin9_dark/pages/)
++ [Admin9_darkblue](https://doancongbang1991.github.io/frontend/web/admin9/admin9_darkblue/pages/) 
 - Admin UX
 + [Preview](https://doancongbang1991.github.io/frontend/web/Adminux/)
 3. # Mobile Framework 7 Template
@@ -37,10 +35,10 @@
 - Max Art Killer
 + [8 Mobile](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/8-mobile/)
 + [Maxarar](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxarar/)
-+ [Maxmaterial](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxmaterial/)
-+ [Maxsmart](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsmart/maxsmart/)
-+ [Maxsolaris](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsmart/maxsolaris/)
-+ [biztrendz](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsmart/biztrendz/)
++ [Maxmaterial](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxmaterial/demosite/)
++ [Maxsmart](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsmart/max_smart/)
++ [Maxsolaris](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsolaris/)
++ [biztrendz](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/biztrendz/)
 - Music App
 + [Preview](https://doancongbang1991.github.io/frontend/mobile/musicapp/pages/)
 - Nox
@@ -52,9 +50,9 @@
 - Weddings
 + [Preview](https://doancongbang1991.github.io/frontend/mobile/weddings/)
 + [Mobilizer]
-+++ [maxandjohns](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsmart/mobilizer/)
-+++ [maxconstro](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsmart/mobilizer/maxandjohns/)
-+++ [maxgymnasia](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsmart/mobilizer/maxgymnasia/)
-+++ [maxiosian](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsmart/mobilizer/maxiosian/)
-+++ [maxmetronic](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsmart/mobilizer/maxmetronic/)
-+++ [maxsolfoo](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/maxsmart/mobilizer/maxsolfoo/)
++++ [maxandjohns](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/mobilizer/maxandjohns/)
++++ [maxconstro](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/mobilizer/maxconstro/)
++++ [maxgymnasia](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/mobilizer/maxgymnasia/)
++++ [maxiosian](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/mobilizer/maxiosian/)
++++ [maxmetronic](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/mobilizer/maxmetronic/)
++++ [maxsolfoo](https://doancongbang1991.github.io/frontend/mobile/maxartkiller/mobilizer/maxsolfoo/)
